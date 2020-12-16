@@ -1,0 +1,57 @@
+	h1.ui.center.header {
+			margin-top: 3em;
+		}
+
+		.ui.table th:not(:first-child):hover {
+			cursor: pointer;
+		}
+
+		
+		.hide {
+			display: none;
+		}
+		
+		.padded {
+			padding: 5px;
+		}
+    
+    
+    .searchbar {
+      margin: 10px;
+      margin-right: 0px;
+      width: 90%;
+      background-color:lightblue;
+      border: 1px solid black;
+      display: inline !important;
+      height: 25px;
+    }
+    
+    .searchbar:focus {
+      transition-duration:0.3s;
+      background-color:lightgreen;
+    } 
+    
+    #warn {
+      text-align: center;
+      display:none;
+      color:white;
+      background-color: red;
+      
+      width: 100%;
+      font-size: 30px;
+      line-height: 2;
+      font-family:calibri;
+    }
+    
+ body {
+      font-family:times new roman;
+      
+ }
+    
+ 
+    
+     @media only screen and (max-width: 768px) {
+      #warn {
+        display: block;
+      }
+    } 

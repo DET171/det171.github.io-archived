@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Filtered &amp; Sorted PF Gun List</title>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.3/dist/semantic.min.css">
+	<link rel="stylesheet" href="src/list.css">
+	<link rel="icon" href="src/pficon.png">
+</head>
+
+<body>
+  <div id="warn">Please rotate or widen your browser window.</div>
+	<main id="main">
+		<h1 class="ui center aligned header">{{ heading }}</h1>
+		<div class="ui container"><div id="searchcontainer">
+      
+  <input class="searchbar" v-model="filterByName" placeholder="Search By Name" oninput="handleInput(event)">
+      
+	</div>
+      
+      
+      
+			<div class="padded">
+        <p>
+          All 9mm & 9×19mm are 9×19mm Parabellum unless otherwise stated. All Rate of Fire are SEMI-AUTOMATIC unless otherwise stated.
+        </p><p>** - Still in testing phase (test place)</p></div>
+
+			<table class="ui celled table">
+				<thead>
+					<tr>
+						
+						<th @click="sortBy = 'name'">Name</th>
+						<th @click="sortBy = 'cal'">Caliber</th>
+						<th @click="sortBy = 'dmg'">Damage</th>
+            <th @click="sortBy = 'cap'">Capacity</th>
+						<th @click="sortBy = 'rpm'">Rate of Fire</th>
+            <th @click="sortBy = 'multi'">Damage Multiplier (Head/Torso)</th>
+						<th @click="sortBy = 'desc'">Description</th>
+            <th @click="sortBy = 'rank'">Rank Unlock</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr v-for="(list, index) in sortedlists" :key="index">
+						
+						<td>{{ list.name }}</td>
+						<td>{{ list.cal }}</td>
+						<td>{{ list.dmg }}</td>
+            <td>{{ list.cap }}</td>
+						<td>{{ list.rpm }}</td>
+            <td>{{ list.multi }}</td>
+						<td>{{ list.desc}}</td>
+           <td>{{ list.rank}}</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<th colspan="100%">{{sortedlists.length}} guns</th>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+	</main>
+
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.min.js"></script>
+  <script src="src/list.js"></script>
+	
+
+</body>
+
+</html>
+
+
+
