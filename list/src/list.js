@@ -141,7 +141,7 @@ function handleInput(e) {
             "cap": "20+1/60",
 			"rpm": "850 AUTO",
             "multi":"1.40/1.00",
-            "desc": "CURRENTLY UNAVAILABLE",
+            "desc": "Czechoslovakia machine pistol of iconic design made in 1959 by Miroslav Rybář. It does have faults but at the same it is reliable with low recoil and good damage in close ranges.",
             "rank": "87"
           },
           {
@@ -161,7 +161,7 @@ function handleInput(e) {
             "cap": "20+1.80",
 			"rpm": "800 AUTO",
             "multi":"1.40/1.00",
-            "desc": "CURRENTLY UNAVAILABLE",
+            "desc": "Bushmaster ARM firearm legally categorized as a pistol. Despite the appearance it actually bears more mechanical similarity to the AK47. Good for damage and reload speed.",
             "rank": "87"
           },
 		      {
