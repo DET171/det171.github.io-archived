@@ -321,7 +321,7 @@ function handleInput(e) {
             "cap": "3+1",
 			      "rpm": "65 PUMP",
             "multi":"1.14/1.00",
-            "desc": "56",
+            "desc": "A Russian shotgun built using 23mm aircraft gun barrels. This makes it the largest-bore shotgun in use, but it only fits 3 rounds in the tube. High damage, slow firerate, extremely tight spread.",
             "rank": "56"
           },
           {
@@ -363,6 +363,236 @@ function handleInput(e) {
             "multi":"1.14/1.00",
             "desc": "An iconic Italian gas-actuated combat shotgun, with a 7 round tube magazine. Features a fast fire rate and tight spread with high damage.",
             "rank": "120"
+          },
+          {
+            "name": "AK12",
+            "cal": "5.45×39mmR",
+            "dmg": "33-20",
+            "cap": "30+1/120",
+			      "rpm": "1000 3×BURST, 700 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A prototype assault rifle from the Kalashnikov Concern based off the AK400. Intended to replace the AK74 in service with the Russian military. A jack of all trades, but a master of none.",
+            "rank": "0"
+          },
+          {
+            "name": "AN-94",
+            "cal": "5.45×39mmR",
+            "dmg": "32-24",
+            "cap": "30+1/120",
+			      "rpm": "1800 2×BURST, 600 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A complex Russian assault rifle featuring a unique pulley-driven burst system. Fires two shots in the exact same place before recoil is felt.",
+            "rank": "10"
+          },
+          {
+            "name": "AS VAL",
+            "cal": "9×39mm",
+            "dmg": "34-20",
+            "cap": "20+1/120",
+			      "rpm": "900 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A tactical upgrade to the SR-3M, with a large suppressor for the purpose of being used by Russian special-ops troops. High damage up close, but lacking damage at range.",
+            "rank": "15"
+          },
+          {
+            "name": "SCAR-L",
+            "cal": "5.56 NATO",
+            "dmg": "33-25",
+            "cap": "30+1/120",
+			      "rpm": "625 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A modular Belgian assault rifle, built specially to satisfy the needs of SOCOM. Steady fire rate with low recoil and high minimum damage.",
+            "rank": "16"
+          },
+          {
+            "name": "AUG A1",
+            "cal": "5.56 NATO",
+            "dmg": "30-23",
+            "cap": "30+1/120",
+			      "rpm": "680 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "An Austrian bullpup assault rifle with a built-in telescopic optic. Decently accurate with a long range and above-average fire rate. Press T and aim to use the scope.",
+            "rank": "20"
+          },
+          {
+            "name": "M16A4",
+            "cal": "5.56 NATO",
+            "dmg": "35-22",
+            "cap": "30+1/120",
+			      "rpm": "900 3×BURST",
+            "multi":"1.50/1.00",
+            "desc": "A traditional AR-15 platform assault rifle as used by the US military. This version features a burst-fire trigger group. Very accurate with low recoil and a long range. High vertical ADS recoil tho.",
+            "rank": "22"
+          },
+          {
+            "name": "G36",
+            "cal": "5.56 NATO",
+            "dmg": "31-25",
+            "cap": "30+1/120",
+			      "rpm": "750 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A modern modular German assault rifle, designed to replace the G3 that was in service at the time. Originally issued with a special optics package. Middle-of-the-road rifle with a preference for ranged performance.",
+            "rank": "25"
+          },
+          {
+            "name": "M16A3",
+            "cal": "5.56 NATO",
+            "dmg": "32-22",
+            "cap": "30+1/120",
+			      "rpm": "800 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A traditional AR-15 platform assault rifle as used by the US military. This version features a fully automatic trigger group. Accurate with low recoil and a fast reload.",
+            "rank": "31"
+          },
+          {
+            "name": "AUG A2",
+            "cal": "5.56 NATO",
+            "dmg": "34-20",
+            "cap": "30+1/120",
+			      "rpm": "700 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "An intermediate upgrade to the AUG A1, foregoing the telescopic optic for a standard Picatinny rail. Trades ranged performance for close-in punch. Slow reload.",
+            "rank": "39"
+          },
+          {
+            "name": "FAMAS F1",
+            "cal": "5.56 NATO",
+            "dmg": "34-20",
+            "cap": "25+1/125",
+			      "rpm": "900 AUTO, 900 3×BURST",
+            "multi":"1.40/1.00",
+            "desc": "A French bullpup assault rifle. Higher fire rate than average, but with lacking damage and a slow reload.",
+            "rank": "45"
+          },
+          {
+            "name": "AK47",
+            "cal": "7.62×39mmR",
+            "dmg": "42-30",
+            "cap": "30+1/120",
+			      "rpm": "600 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A Russian assault rifle. The most common rifle in the world, firing a heavy intermediate cartridge. High damage, high recoil.",
+            "rank": "47"
+          },
+          {
+            "name": "AUG A3",
+            "cal": "5.56 NATO",
+            "dmg": "32-21",
+            "cap": "30+1/120",
+			      "rpm": "720 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A further revision of the AUG platform with additional minor revisions. Jack of all trades of the AUG family, but has noticeable horizontal recoil.",
+            "rank": "52"
+          },
+          {
+            "name": "L85A2",
+            "cal": "5.56 NATO",
+            "dmg": "28-25",
+            "cap": "30+1/120",
+			      "rpm": "700 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A British bullpup rifle, much maligned for its reliability until it was remodeled. High minimum damage, moderate recoil.",
+            "rank": "55"
+          },
+          {
+            "name": "HK416",
+            "cal": "5.56 NATO",
+            "dmg": "31-24",
+            "cap": "30+1/120",
+			      "rpm": "850 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A German assault rifle, deriving its design from the AR-15 platform. Made famous for its use by SEAL Team Six. Fast fire rate with high damage, but a slow reload.",
+            "rank": "64"
+          },
+          {
+            "name": "AK74",
+            "cal": "5.45×39mmR",
+            "dmg": "34-23",
+            "cap": "30+1/120",
+			      "rpm": "650 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A revision of the Kalashnikov system to accept the less powerful 5.45x39mm cartrige, improving weapon handling and accuracy.",
+            "rank": "74"
+          },
+          {
+            "name": "AKM",
+            "cal": "7.62×39mmR",
+            "dmg": "40-32",
+            "cap": "30+1/120",
+			      "rpm": "600 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "Modernized version of the AK47 rifle with various improvements to handling and functionality. Slightly reduced damage compared to the AK47 with a preference for recoil control.",
+            "rank": "94"
+          },
+          {
+            "name": "AK103",
+            "cal": "7.62×39mmR",
+            "dmg": "38-29",
+            "cap": "30+1/120",
+			      "rpm": "600 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A further modernized version of the AK platform, brought into the modern day with a polymer handguard and stock. Trades a small amount of close-range performance for a range preference.",
+            "rank": "103"
+          },
+          {
+            "name": "TAR-21",
+            "cal": "5.56 NATO",
+            "dmg": "29-22",
+            "cap": "30+1/120",
+			      "rpm": "850 AUTO",
+            "multi":"1.50/1.10",
+            "desc": "sraeli bullpup assault rifle chambered in standard 5.56x45 NATO. Features a long barrel for great ballistics over range.",
+            "rank": "111"
+          },
+          {
+            "name": "TYPE 88-2",
+            "cal": "5.45×39mmR",
+            "dmg": "34-20",
+            "cap": "75/150",
+			      "rpm": "600 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "An AK74 knock off for North Korean forces. Comes with a specialty overfolder stock, and absurdly large helical magazine. Extremely poor ergonomics plague this firearm.",
+            "rank": "122"
+          },
+          {
+            "name": "M231",
+            "cal": "5.56 NATO",
+            "dmg": "35-25",
+            "cap": "30/150",
+			      "rpm": "1225 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "The M231 Firing Port Weapon is only intended to be used inside the Bradley AFV in a special mount. Hits hard, but good luck hitting anything... You're going to use it anyways, Boss?",
+            "rank": "123"
+          },
+          {
+            "name": "C7A2",
+            "cal": "5.56 NATO",
+            "dmg": "29-19",
+            "cap": "30+1/120",
+			      "rpm": "800 AUTO",
+            "multi":"1.50/1.00",
+            "desc": "A Canadian iteration upon the US military's M16A2. Features a full auto trigger group, speedy reload and an integrated optic. This gun reminds you of a simpler time.",
+            "rank": "128"
+          },
+          {
+            "name": "G11K2",
+            "cal": "4.73x33mm CASELESS",
+            "dmg": "28-21",
+            "cap": "45/180",
+			      "rpm": "2100 3×BURST, 460 AUTO",
+            "multi":"1.70/1.00",
+            "desc": "A prototype German assault rifle that fires caseless rounds, allowing for more bullets in the same space. It features an incredibly fast 3-round burst mode, but otherwise fires very slowly. It is mechanically complex, making it unwieldy and bulky. Wait a minute, this is the future. Where are all the phaser guns?",
+            "rank": "211"
+          },
+          {
+            "name": "K2",
+            "cal": "5.56 NATO",
+            "dmg": "34-24",
+            "cap": "30+1/120",
+			      "rpm": "750 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A modernized south korean Assault Rifle stemming from the K1A rifle. It is quite a balanced rifle in most every field.",
+            "rank": "42"
           },
 		  
 		  
