@@ -594,6 +594,136 @@ function handleInput(e) {
             "desc": "A modernized south korean Assault Rifle stemming from the K1A rifle. It is quite a balanced rifle in most every field.",
             "rank": "42"
           },
+          {
+            "name": "MK11",
+            "cal": "7.62 NATO",
+            "dmg": "45-38",
+            "cap": "20+1/80",
+			      "rpm": "330 SEMI",
+            "multi":"1.50/1.20",
+            "desc": "An American AR-10 platform rifle firing the 7.62 NATO round. Snappy, fast recoil and deep magazine with middling fire rate.",
+            "rank": "3"
+          },
+          {
+            "name": "SKS",
+            "cal": "7.62×39mmR",
+            "dmg": "40-32",
+            "cap": "20+1/80",
+			      "rpm": "433 SEMI",
+            "multi":"1.50/1.20",
+            "desc": "A modernized Tapco version of the traditional SKS carbine that saw use in WWII. Light recoil with moderate reserves and faster fire rate, but lower damage.",
+            "rank": "13"
+          },
+          {
+            "name": "SL-8",
+            "cal": "5.56 NATO",
+            "dmg": "38-28",
+            "cap": "30+1/120",
+			      "rpm": "625 SEMI",
+            "multi":"1.40/1.08",
+            "desc": "A semi-automatic target rifle with a heavy barrel, sold as the civilian version of the famed G36. Very fast fire rate... if your trigger finger can keep up.",
+            "rank": "38"
+          },
+          {
+            "name": "VSS VINTOREZ",
+            "cal": "9×39mm SP",
+            "dmg": "55-38",
+            "cap": "10+1/100",
+			      "rpm": "700 AUTO",
+            "multi":"1.80/1.40  ",
+            "desc": "A DMR variant of the AS VAL intended for special operations where normal sniper rifles aren't viable. Fully automatic capable. Fast fire rate and high damage, with high recoil and low velocity.",
+            "rank": "46"
+          },
+          {
+            "name": "MSG90",
+            "cal": "7.62 NATO",
+            "dmg": "50-40",
+            "cap": "10+1/120",
+			      "rpm": "355 SEMI",
+            "multi":"2.00/1.20",
+            "desc": "A ruggedized PSG-1 intended for use in rapid-response operations such as hostage situations. Has a 10 round magazine, deep reserves, and a slightly faster fire rate, countered by strong recoil.",
+            "rank": "59 "
+          },
+          {
+            "name": "BEOWULF TCR",
+            "cal": ".50 BEOWULF",
+            "dmg": "60-40",
+            "cap": "10+1/70",
+			      "rpm": "400 SEMI",
+            "multi":"1.70/1.23",
+            "desc": "A custom AR-15 platform rifle produced by Alexander Arms firing the heavy .50 Beowulf cartridge. Fast fire rate and high damage with poor velocity.",
+            "rank": "70"
+          },
+          {
+            "name": "SA58 SPR",
+            "cal": "7.62 NATO",
+            "dmg": "48-30",
+            "cap": "20+1/120",
+			      "rpm": "500 SEMI",
+            "multi":"2.10/1.10",
+            "desc": "A semi-automatic FAL submitted for US military trials. Features a high fire rate and deep reserves, but becomes unstable under rapid fire and reloads slowly.",
+            "rank": "78"
+          },
+          {
+            "name": "SCAR SSR",
+            "cal": "7.62 NATO",
+            "dmg": "57-48",
+            "cap": "10+1/60",
+			      "rpm": "220 SEMI",
+            "multi":"2.00/1.70",
+            "desc": "A heavy precision variant of the Belgian SCAR-H. Slowest fire rate in class with strong vertical recoil, but with fast recovery.",
+            "rank": "85"
+          },
+          {
+            "name": "BEOWULF ECR",
+            "cal": ".50 BEOWULF",
+            "dmg": "52-30",
+            "cap": "10+1/100",
+			      "rpm": "780 AUTO, 780 3×BURST",
+            "multi":"1.40/1.10",
+            "desc": "A custom AR-15 platform rifle produced by Alexander Arms firing the .50 Beowulf round. Packs quite a punch, but exhausts its ammo quickly.",
+            "rank": "21"
+          },
+          {
+            "name": "SCAR-H",
+            "cal": "7.62 NATO",
+            "dmg": "42-29",
+            "cap": "20+1/120",
+			      "rpm": "600 AUTO",
+            "multi":"1.40/1.10",
+            "desc": "A Belgian rifle, favored by SOCOM. Stable, jack of all trades battle rifle.",
+            "rank": "30"
+          },
+          {
+            "name": "AK12BR",
+            "cal": "",
+            "dmg": "39-25",
+            "cap": "20+1/120",
+			      "rpm": "700 AUTO, 1000 2×BURST",
+            "multi":"1.40/1.10",
+            "desc": "A conceptualized Russian rifle using the AK12 platform. Features a 'balanced recoil' system, giving it very low recoil. High damage.",
+            "rank": "44"
+          },
+          {
+            "name": "G3",
+            "cal": "7.62 NATO",
+            "dmg": "35-25",
+            "cap": "20+1/120",
+			      "rpm": "580 AUTO",
+            "multi":"2.00/1.00",
+            "desc": "A German battle rifle featuring a roller-delayed blowback system. High fire rate, high recoil, middling reload speed.",
+            "rank": "59"
+          },
+          {
+            "name": "AG-3",
+            "cal": "7.62 NATO",
+            "dmg": "45-35",
+            "cap": "20+1/120",
+			      "rpm": "525 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A Norwegian take on the G3, featuring more modularity and special modifications made by the Norwegians. Slow fire rate with controllable recoil.",
+            "rank": "76x"
+          },
 		  
 		  
         ],
@@ -613,5 +743,3 @@ function handleInput(e) {
         }
       }
     });
-    
-    
