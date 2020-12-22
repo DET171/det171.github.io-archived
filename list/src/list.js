@@ -722,7 +722,7 @@ function handleInput(e) {
 			      "rpm": "525 AUTO",
             "multi":"1.40/1.00",
             "desc": "A Norwegian take on the G3, featuring more modularity and special modifications made by the Norwegians. Slow fire rate with controllable recoil.",
-            "rank": "76x"
+            "rank": "76"
           },
 		  
 		  
