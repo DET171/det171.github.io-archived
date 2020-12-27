@@ -696,7 +696,7 @@ function handleInput(e) {
           },
           {
             "name": "AK12BR",
-            "cal": "",
+            "cal": "5.45×39mmR",
             "dmg": "39-25",
             "cap": "20+1/120",
 			      "rpm": "700 AUTO, 1000 2×BURST",
@@ -724,7 +724,479 @@ function handleInput(e) {
             "desc": "A Norwegian take on the G3, featuring more modularity and special modifications made by the Norwegians. Slow fire rate with controllable recoil.",
             "rank": "76"
           },
-		  
+          {
+            "name": "HK417**",
+            "cal": "7.62 NATO",
+            "dmg": "40-32",
+            "cap": "20+1/120",
+			      "rpm": "600 AUTO",
+            "multi":"1.40/1.10",
+            "desc": "A German battle rifle, deriving its design from the AR-10 platform. Made famous for its use by SEAL Team Six. Easy to learn, but a slow reload.",
+            "rank": "78"
+          },
+          {
+            "name": "HENRY 45-70",
+            "cal": ".45-70",
+            "dmg": "65-45",
+            "cap": "5/50",
+			      "rpm": "100 SEMI",
+            "multi":"2.40/1.55",
+            "desc": "A modern take on the classic lever-action rifle, firing the heavyweight .45-70 Government round. 5-round tube, slow muzzle velocity, but instantly kills to the head.",
+            "rank": "96"
+          },
+          {
+            "name": "FAL 50.00",
+            "cal": "7.62 NATO",
+            "dmg": "41-32",
+            "cap": "20+1/120",
+			      "rpm": "700 AUTO",
+            "multi":"1.40/1.10",
+            "desc": "A Belgian battle rifle that has rightfully earned the moniker of 'the right arm of the free world'. Fires quickly with moderate recoil, but suffers from a slow reload.",
+            "rank": "107"
+          },
+          {
+            "name": "M4A1",
+            "cal": "5.56 NATO",
+            "dmg": "34-19",
+            "cap": "30+1/120",
+			      "rpm": "780 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "An American carbine based on the AR-15 platform. Fully automatic trigger group. Very stable firing characteristics, strong close range performance with weaker ranged performance.",
+            "rank": "0"
+          },
+          {
+            "name": "G36K",
+            "cal": "5.56 NATO",
+            "dmg": "34-19",
+            "cap": "30+1/120",
+			      "rpm": "750 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A slightly shortened carbine variant of the G36 rifle, featuring a shorter handguard and barrel. Above average ranged performance with a compromise on close range damage.",
+            "rank": "6  "
+          },
+          {
+            "name": "M4",
+            "cal": "5.56 NATO",
+            "dmg": "35-19",
+            "cap": "30+1/120",
+			      "rpm": "950 3×BURST",
+            "multi":"1.50/1.10",
+            "desc": "An American carbine based on the AR-15 platform. Burst fire trigger group. Very stable firing characteristics with a high rate of fire. Compared to the M4A1, it has slightly higher damage.",
+            "rank": "14"
+          },
+          {
+            "name": "L22",
+            "cal": "5.56 NATO",
+            "dmg": "30-21",
+            "cap": "30+1/120",
+			      "rpm": "775 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A bullpup British carbine based on the L85A2. High rate of fire with above-average ranged performance and moderate recoil.",
+            "rank": "28"
+          },
+          {
+            "name": "SCAR PDW",
+            "cal": "5.56 NATO",
+            "dmg": "36-19",
+            "cap": "30+1/120",
+			      "rpm": "650 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A carbine variant of the SCAR-L. Slow rate of fire, but has very strong close range performance and snappy weapon handling.",
+            "rank": "32"
+          },
+          {
+            "name": "AKU12",
+            "cal": "5.45×39mmR",
+            "dmg": "35-19",
+            "cap": "30+1/120",
+			      "rpm": "800 AUTO, 800 3×BURST",
+            "multi":"1.40/1.00",
+            "desc": "A conceptualized Russian prototype carbine based on the AK12. Strong close-range performance with weak ranged performance and a high rate of fire.",
+            "rank": "35"
+          },
+          {
+            "name": "GROZA-1",
+            "cal": "7.62×39mmR",
+            "dmg": "33-22",
+            "cap": "30+1/120",
+			      "rpm": "750 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A Russian bullpup carbine. Above-average perfomance in all respects with a stable firing characteristic.",
+            "rank": "42"
+          },
+          {
+            "name": "AK12C",
+            "cal": "5.45×39mmR",
+            "dmg": "35-21",
+            "cap": "30+1/120",
+			      "rpm": "700 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A conceptualized Russian prototype carbine based on the AK12. Strong close range performance with slightly better ranged performance but a slower rate of fire.",
+            "rank": "51"
+          },
+          {
+            "name": "HONEY BADGER",
+            "cal": ".300 AAC BLACKOUT",
+            "dmg": "30-22",
+            "cap": "30+1/120",
+			      "rpm": "800 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A suppressed American carbine based on the AR-15 platform firing the .300 Blackout round. Moderate recoil with average performance all around.",
+            "rank": "62"
+          },
+          {
+            "name": "SR-3M",
+            "cal": "9×39mmR",
+            "dmg": "34-20",
+            "cap": "20+1/120",
+			      "rpm": "900 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A Russian carbine chambered in 9x39mm, designed for police use. Exceptional close quarters performance, featuring a very high rate of fire with low recoil, but has a smaller magazine.  ",
+            "rank": "69"
+          },
+          {
+            "name": "GROZA-4",
+            "cal": "9×39mmR",
+            "dmg": "36-20",
+            "cap": "20+1/120",
+			      "rpm": "700 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "An integrally suppressed version of the Groza-1 firing 9x39mm. Excellent close-range performance with mild recoil, but a slower fire rate and smaller magazine.",
+            "rank": "79"
+          },
+          {
+            "name": "MC51SD",
+            "cal": "7.62 NATO",
+            "dmg": "46-25",
+            "cap": "20+1/120",
+			      "rpm": "540 AUTO",
+            "multi":"1.40/1.10",
+            "desc": "An integrally suppressed version of the G3 rifle for special forces. Features battle rifle damage characteristics with mild recoil, slow fire rate, and a smaller magazine than average.",
+            "rank": "86"
+          },
+          {
+            "name": "FAL 50.63 PARA",
+            "cal": "7.62 NATO",
+            "dmg": "44-23",
+            "cap": "20+1/120",
+			      "rpm": "700 AUTO",
+            "multi":"1.40/1.10",
+            "desc": " A paratrooper variant of the FAL 50.00. Features battle rifle damage characteristics. Heavy with strong recoil, high velocity, and a smaller magazine than average.",
+            "rank": "89"
+          },
+          {
+            "name": "1858 CARBINE",
+            "cal": ".44 MAGNUM",
+            "dmg": "65-40",
+            "cap": "6/72",
+			      "rpm": "110 SEMI",
+            "multi":"2.50/1.55",
+            "desc": "A custom carbine variant of the 1858 New Army revolver. Very high damage capable of an instant kill to the head at any range, with a very slow fire rate and moderate muzzle velocity.",
+            "rank": "93"
+          },
+          {
+            "name": "AK105",
+            "cal": "5.45×39mmR",
+            "dmg": "36-20",
+            "cap": "30+1/120",
+			      "rpm": "600 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A modernized AK74 rifle with a carbine barrel. Slow firerate with high close-range damage and moderate muzzle velocity.",
+            "rank": "105"
+          },
+          {
+            "name": "JURY",
+            "cal": ".45 LONG COLT",
+            "dmg": "80-50",
+            "cap": "6/75",
+			      "rpm": "300 SEMI",
+            "multi":"1.80/1.25",
+            "desc": "A carbine variant of the Brazilian-made Judge revolver. High damage and firerate with harsh recoil and reduced magazine capacity.",
+            "rank": "114"
+          },
+          {
+            "name": "KAC SRR",
+            "cal": ".30 KAC",
+            "dmg": "59-42",
+            "cap": "6/42",
+			      "rpm": "400 SEMI",
+            "multi":"2.50/1.25",
+            "desc": "A carbine variant of the Redhawk with a special suppressor. Lower damage and very slow velocity, with a high headshot multiplier, low recoil, and fast fire rate.",
+            "rank": "125"
+          },
+          {
+            "name": "X95R",
+            "cal": "5.45×39mm",
+            "dmg": "27-20",
+            "cap": "30+1/150",
+			      "rpm": "950 AUTO",
+            "multi":"1.50/1.00",
+            "desc": "A modern revision of the Tavor, an Israeli carbine, uniquely chambered in 5.45x39. It further improves on the TAR design with improved ergonomics by moving the charging handle and redesigning the stock. High fire rate with better torso performance, but below average damage.",
+            "rank": "130"
+          },
+          {
+            "name": "HK51B",
+            "cal": "5.56 NATO",
+            "dmg": "41-22",
+            "cap": "100/200",
+			      "rpm": "950 AUTO, 950 3×BURST",
+            "multi":"1.40/1.00",
+            "desc": "Aftermarket conversion of the HK21 heavy LMG. Fires at an extreme rate of speed from a 100 round box, but has awful recoil. Has a lengthy reload process.",
+            "rank": "160"
+          },
+          {
+            "name": "K1A",
+            "cal": "5.56 NATO",
+            "dmg": "33-19",
+            "cap": "30+1/120",
+			      "rpm": "900 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A south korean Carbine stemming from the prototype XK1 rifle. Much like K2, this rifle is quite balanced but leans more into CQC power.",
+            "rank": "63"
+          },
+          {
+            "name": "MP5K",
+            "cal": "9×19mm",
+            "dmg": "30-17",
+            "cap": "30+1/120",
+			      "rpm": "900 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A sub-compact version of the German MP5. Very lightweight with high fire rate, short range, and manageable recoil.",
+            "rank": "0"
+          },
+          {
+            "name": "UMP45",
+            "cal": ".45 ACP",
+            "dmg": "38-21",
+            "cap": "25+1/125",
+			      "rpm": "600 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A mid-size German PDW. Fires the heavier .45 ACP round. Impressive ranged performance, but has a slow fire rate and slightly smaller magazine.",
+            "rank": "5"
+          },
+          {
+            "name": "G36C",
+            "cal": "5.56 NATO",
+            "dmg": "33-20",
+            "cap": "30+1/120",
+			      "rpm": "750 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "An extremely short subcarbine variant of the G36 assault rifle. Being incredibly short, it can be used by armored vehicle crews. Trades some close range performance for better long range performance.",
+            "rank": "7"
+          },
+          {
+            "name": "MP7",
+            "cal": "4.6×",
+            "dmg": "30-18",
+            "cap": "30+1/120",
+			      "rpm": "950 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A compact German PDW with a unique ammunition type, intended as a competitor to the P90. High fire rate and wall penetration, moderate range, poor ranged performance.",
+            "rank": "9"
+          },
+          {
+            "name": "MAC10",
+            "cal": ".45 ACP",
+            "dmg": "36-19",
+            "cap": "30/150",
+			      "rpm": "1090 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "An American PDW that fires .45 ACP at a blisteringly high rate of fire. Very lightweight. Poor accuracy while aimed, with stable hip-fire characteristics.",
+            "rank": "23"
+          },
+          {
+            "name": "P90",
+            "cal": "5.7×28mm",
+            "dmg": "25-17",
+            "cap": "50+1/150",
+			      "rpm": "900 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A Belgian PDW with a unique magazine feed system and curious ergonomics. High magazine capacity and great wall penetration with moderate recoil and low damage.",
+            "rank": "24"
+          },
+          {
+            "name": "MP5",
+            "cal": "9×19mm",
+            "dmg": "34-19",
+            "cap": "30+1/120",
+			      "rpm": "800 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A German PDW with a roller-delayed blowback system. It is one of the most popular weapons in the world. Middle-of-the-road performance in every respect.",
+            "rank": "40"
+          },
+          {
+            "name": "COLT SMG 633",
+            "cal": "9×19mm",
+            "dmg": "34-18",
+            "cap": "32+1/128",
+			      "rpm": "1000 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "An American PDW based on the standard AR-15 platform. Very high fire rate with a slightly larger magazine and strong recoil.",
+            "rank": "49"
+          },
+          {
+            "name": "L2A3",
+            "cal": "9×19mm",
+            "dmg": "36-24",
+            "cap": "34+1/128",
+			      "rpm": "550 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A British PDW intended to replace the STEN in service. High damage with a low fire rate and uncanny stability.",
+            "rank": "53"
+          },
+          {
+            "name": "MP5SD",
+            "cal": "9×19mm",
+            "dmg": "34-19",
+            "cap": "30+1/120",
+			      "rpm": "800 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "An integrally suppressed version of the MP5 for special operations forces. Reduced range and velocity compared to the MP5, but with better recoil control.",
+            "rank": "60"
+          },
+          {
+            "name": "MP10",
+            "cal": "9×19mm",
+            "dmg": "29-23",
+            "cap": "30+1/120",
+			      "rpm": "850 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "E-",
+            "rank": "66"
+          },
+          {
+            "name": "MP5/10",
+            "cal": "10mm AUTO",
+            "dmg": "35-24",
+            "cap": "30+1/120",
+			      "rpm": "800 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A customized MP5 chambered in the 10mm Auto cartridge. Greatly improved damage at all ranges, with worse recoil control.",
+            "rank": "74"
+          },
+          {
+            "name": "M3A1",
+            "cal": ".45 ACP",
+            "dmg": "48-25",
+            "cap": "30/120",
+			      "rpm": "450 AUTO",
+            "multi":"1.65/1.10",
+            "desc": "A vintage American World War II firearm, cheaply made out of stamped steel. Very slow fire rate, with high per-shot damage and decent ranged performance.",
+            "rank": "71"
+          },
+          {
+            "name": "UZI",
+            "cal": "9×19mm",
+            "dmg": "35-18",
+            "cap": "25/75",
+			      "rpm": "600 AUTO",
+            "multi":"1.55/1.10",
+            "desc": "An Israeli submachine gun, favored by the IDF throughout the Cold War and famed for its reliability. Moderate rate of fire with low recoil and above-average damage.",
+            "rank": "77"
+          },
+          {
+            "name": "AUG A3 PARA",
+            "cal": "9×19mm",
+            "dmg": "34-19",
+            "cap": "25+1/125",
+			      "rpm": "780 AUTO, 780 3×BURST",
+            "multi":"1.40/1.00",
+            "desc": "A paratrooper model of the AUG A3, chambered in 9mm. Slightly reduced magazine size compared to most other PDWs, but features impressive recoil control.",
+            "rank": "80"
+          },
+          {
+            "name": "K7",
+            "cal": "9×19mm",
+            "dmg": "30-17",
+            "cap": "30+1/120",
+			      "rpm": "1100 AUTO, BURST",
+            "multi":"1.40/1.00",
+            "desc": "A south korean SMG variant stemming from the K1A rifle. It has quick handling, and even quicker RPM, unlike most weapons of it's type it can equip a few barrel attachments!",
+            "rank": "84"
+          },
+          {
+            "name": "KRINKOV",
+            "cal": "5.45x39mmR",
+            "dmg": "37-18",
+            "cap": "30+1/120",
+			      "rpm": "735 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "An AKS-74U Personal Defense Weapon firing the 5.45x39mm cartridge. Fires much faster than the standard Kalashnikov automatic, and reloads at lightning fast speeds. Krinkov is the name given to extra short barreled AK’s in the USA market.",
+            "rank": "88"
+          },
+          {
+            "name": "PPSH-41",
+            "cal": "7.62×25mm",
+            "dmg": "25-19",
+            "cap": "71/213",
+			      "rpm": "1000 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A vintage Russian World War II firearm. Features a high capacity drum magazine and a high fire rate, but per-shot damage is overall weak, and recoil is difficult to manage.",
+            "rank": "92"
+          },
+          {
+            "name": "FAL PARA SHORTY",
+            "cal": "7.62 NATO",
+            "dmg": "40-24",
+            "cap": "20+1/120",
+			      "rpm": "700 AUTO",
+            "multi":"1.40/1.10",
+            "desc": "A heavily customized FAL 50.63, and as such has battle rifle characteristics. Has an incredibly short barrel, leading to poor recoil management and equally poor range.",
+            "rank": "98"
+          },
+          {
+            "name": "KRISS VECTOR",
+            "cal": ".45 ACP",
+            "dmg": "35-18",
+            "cap": "25+1/150",
+			      "rpm": "1200 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A uniquely designed American PDW with a special recoil management system. Extremely high fire rate with low recoil and poor ranged performance.",
+            "rank": "100"
+          },
+          {
+            "name": "PP-19 BIZON",
+            "cal": "9×19mm",
+            "dmg": "34-18",
+            "cap": "53+1/159",
+			      "rpm": "700 AUTO",
+            "multi": "1.40/1.00",
+            "desc": "Kept ya waiting, huh? 9mm submachine gun developed in 1993 at Izhmash by a team of engineers headed by Victor Kalashnikov. Small but packs a punch with plenty of ammo to spit. Not great for ranged encounters.",
+            "rank": "105"
+          },
+          {
+            "name": "MP40",
+            "cal": "9×19mm",
+            "dmg": "38-22",
+            "cap": "32/128",
+			      "rpm": "550 AUTO",
+            "multi":"1.65/1.00",
+            "desc": "A vintage German World War II firearm. Fires at a lower fire rate, but is relatively accurate with manageable recoil and reasonable ranged performance.",
+            "rank": "108"
+          },
+          {
+            "name": "X95 SMG",
+            "cal": "9×19mm",
+            "dmg": "32-18.2",
+            "cap": "32+1/160",
+			      "rpm": "750 AUTO",
+            "multi":"1.50/1.10",
+            "desc": "A 9mm conversion of the Tavor X95, which uses standard Uzi magazines. This conversion of the Tavor allows for the replacement of traditional SMGs with a modern platform. Better torso performance with slightly below-average damage.",
+            "rank": "115"
+          },
+          {
+            "name": "TOMMY GUN",
+            "cal": ".45 ACP",
+            "dmg": "37-19",
+            "cap": "20/160",
+			      "rpm": "725 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "An iconic American World War I-era firearm designed in 1921. Fires .45 ACP, making for heavy recoil, but has incredible stopping power up close. Has multiple magazine options.  Make him an offer he can't refuse.",
+            "rank": "121"
+          },
+          
+          
+          
 		  
         ],
         sortBy: "rank",
@@ -743,3 +1215,15 @@ function handleInput(e) {
         }
       }
     });
+
+
+
+
+
+
+
+
+
+
+
+
