@@ -61,7 +61,7 @@ function handleInput(e) {
             "desc": "A modern American pistol with many custom parts. High damage, medium capacity, strong recoil.",
              "rank": "34"
           },
-          
+            
             {
             "name": "FIVE SEVEN",
             "cal": "5.7×28mm",
@@ -1193,6 +1193,147 @@ function handleInput(e) {
             "multi":"1.40/1.00",
             "desc": "An iconic American World War I-era firearm designed in 1921. Fires .45 ACP, making for heavy recoil, but has incredible stopping power up close. Has multiple magazine options.  Make him an offer he can't refuse.",
             "rank": "121"
+          },
+          {
+            "name": "INTERVENTION",
+            "cal": ".408 CHEY TAC",
+            "dmg": "90-80",
+            "cap": "7+8/42",
+			      "rpm": "50 BOLT",
+            "multi":"3.00/1.11",
+            "desc": "An American bolt-action sniper rifle famed for its precision and power. Slow fire rate, large magazine size.",
+            "rank": "0"
+          },
+          {
+            "name": "REMINGTON 700",
+            "cal": ".308 WINCHESTER/7.62 NATO",
+            "dmg": "75-70",
+            "cap": "6+1/48",
+			      "rpm": "60 BOLT",
+            "multi":"3.00/1.35",
+            "desc": "A classic American bolt-action sniper with a Magpul polymer frame. Middle-of-the-road in all aspects.",
+            "rank": "12"
+          },
+          {
+            "name": "DRAGUNOV SVU",
+            "cal": "7.62×54mmR",
+            "dmg": "60-50",
+            "cap": "10+1/60",
+			      "rpm": "150 SEMI",
+            "multi":"1.90/1.40",
+            "desc": "A modern semi-automatic bullpup Russian sniper rifle with a high rate of fire, but lacking stopping power at range.",
+            "rank": "38"
+          },
+          {
+            "name": "AWS",
+            "cal": ".308 WINCHESTER/7.62 NATO",
+            "dmg": "80-70",
+            "cap": "",
+			      "rpm": "55 BOLT",
+            "multi":"3.00/1.25",
+            "desc": "A suppressed version of the L115A3(AWM) firing a smaller cartridge. Suffers from reduced velocity, but feeds from a 10 round magazine, with middling firerate.",
+            "rank": "41"
+          },
+          
+          {
+            "name": "BFG 50",
+            "cal": ".50 BMG",
+            "dmg": "100-95",
+            "cap": "1/42",
+			      "rpm": "16 BREECH LOADED",
+            "multi":"3.00/1.50",
+            "desc": "An American anti-materiel rifle. Hits like a truck, but only chambers a single round, necessitating frequent reloads.",
+            "rank": "65"
+          },
+      {
+            "name": "AWM",
+            "cal": ".338 LAPUA MAGNUM",
+            "dmg": "82-70",
+            "cap": "5+1/1.25",
+			      "rpm": "50 BOLT",
+            "multi":"3.00/1.25",
+            "desc": "A British bolt-action sniper rifle with a high rate of fire and a powerful cartridge, but a smaller magazine than normal.",
+            "rank": "82"
+          },
+            {
+            "name": "TRG-42",
+            "cal": ".338 LAPUA MAGNUM",
+            "dmg": "100-65",
+            "cap": "5+1/45",
+			      "rpm": "45 BOLT",
+            "multi":"3.00/1.25",
+            "desc": "A Finnish bolt-action rifle. Higher-than-average velocity with a fast reload, but slow bolt chambering action.",
+            "rank": "84"
+          },
+          {
+            "name": "MOSIN NAGANT",
+            "cal": "7.62×39mmR",
+            "dmg": "60-50",
+            "cap": "5/50",
+			      "rpm": "70 BOLT",
+            "multi":"3.00/1.50",
+            "desc": "A vintage Russian sniper rifle dating from the 1900s. 5-round internal magazine makes for quick reloading, alongside a reasonably swift fire rate. Poor damage to the body.",
+            "rank": "91"
+          },
+          {
+            "name": "DRAGUNOV SVDS",
+            "cal": "7.62×54mmR",
+            "dmg": "70-60",
+            "cap": "10+1/50",
+			      "rpm": "60 SEMI",
+            "multi":"1.80/1.43",
+            "desc": "A paratrooper version of the SVD rifle, with a light frame and a folding stock. Semi-automatic with 10 round magazine, but suffers from poor recoil recovery.",
+            "rank": "104"
+          },
+          {
+            "name": "K14",
+            "cal": "--",
+            "dmg": "68-55",
+            "cap": "10+1/50",
+			      "rpm": "50 BOLT",
+            "multi":"3.00/1.50",
+            "desc": "A south korean sniper rifle with light weight design. Balanced overall stats with lots of range, but slow bolting speed.",
+            "rank": "138"
+          },
+          {
+            "name": "HECATE II",
+            "cal": ".50 BMG",
+            "dmg": "97-93",
+            "cap": "7+1/28",
+			      "rpm": "28 BOLT",
+            "multi":"3.00/1.80",
+            "desc": "A French magazine-fed .50 BMG rifle. Sure, you could shoot someone from across the map with this, but the bolt takes a long time to cycle, and the reload is by no means swift.",
+            "rank": "150"
+          },
+          {
+            "name": "M107",
+            "cal": ".50 BMG",
+            "dmg": "98-88",
+            "cap": "5+1/35",
+			      "rpm": "80 SEMI",
+            "multi":"3.00/1.50",
+            "desc": "A magazine-fed semi-automatic .50 BMG rifle. Lethargic handling, reload, and mobility with very high damage. Big whoop, I've got a Barrett .50 cal. I could kill a building.",
+            "rank": "170"
+          },
+          {
+            "name": "STEYR SCOUT",
+            "cal": ".376 STEYR",
+            "dmg": "45-35",
+            "cap": "8+1/64",
+			      "rpm": "85 BOLT",
+            "multi":"4.00/1.10",
+            "desc": "An Austrian scout sniper rifle firing a specially-designed round. Poor damage to the body, but instantly kills to the head at any range, with the fastest bolt cycling rate in class.",
+            "rank": "195"
+          },
+          {
+            "name": "WA2000",
+            "cal": ".300 WINCHESTER MAGNUM",
+            "dmg": "72-66",
+            "cap": "6+1/42",
+			      "rpm": "90 SEMI",
+            "multi":"1.85/1.36",
+            "desc": "A semi-automatic German bullpup intended for law enforcement as a counter-terrorist weapon. Very few were made, making it highly sought after. Fast fire rate, moderate damage, poor recoil control. Section 26, paragraph 5 - need to know. I'm sure you understand.",
+            "rank": "200"
           },
           
           
