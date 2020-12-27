@@ -1335,9 +1335,128 @@ function handleInput(e) {
             "desc": "A semi-automatic German bullpup intended for law enforcement as a counter-terrorist weapon. Very few were made, making it highly sought after. Fast fire rate, moderate damage, poor recoil control. Section 26, paragraph 5 - need to know. I'm sure you understand.",
             "rank": "200"
           },
+          {
+            "name": "COLT LMG",
+            "cal": "5.56 NATO",
+            "dmg": "35-20",
+            "cap": "60/180",
+			      "rpm": "700 AUTO",
+            "multi":"1.40/1.10",
+            "desc": "A squad assault rifle based on the AR-15 platform with a heavy barrel, large shroud and 60-round magazine. A jack of all trades, with a slow reload.",
+            "rank": "0"
+          },
+          {
+            "name": "M60",
+            "cal": "7.62 NATO",
+            "dmg": "40-26",
+            "cap": "100/200",
+			      "rpm": "600 AUTO",
+            "multi":"1.00/1.00",
+            "desc": "A heavy American belt-fed machine gun. Fires slowly and accurately with high damage, but must be reloaded via a lengthy process.",
+            "rank": "19"
+          },
+          {
+            "name": "AUG HBAR",
+            "cal": "5.56 NATO",
+            "dmg": "35-23",
+            "cap": "42/172",
+			      "rpm": "650 AUTO",
+            "multi":"1.40/1.10",
+            "desc": "A heavy-barrel, open-bolt version of the AUG, with a slightly slower fire rate and larger magazine. Accurate, but with a slow reload.",
+            "rank": "27"
+          },
+          {
+            "name": "MG36",
+            "cal": "5.56 NATO",
+            "dmg": "30-23",
+            "cap": "100+1/200",
+			      "rpm": "750 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A heavy-barrel variant of the G36 rifle, using 100-round beta c-mags. Low damage, but has a high fire rate and low recoil.",
+            "rank": "33"
+          },
+          {
+            "name": "RPK12",
+            "cal": "5.45×39mmR",
+            "dmg": "32-21",
+            "cap": "45+1/135",
+			      "rpm": "700 AUTO, 1000 3×BURST",
+            "multi":"1.40/1.00",
+            "desc": "A  conceptuaized prototype LMG, essentially a heavy-barrel version of the AK12. Features low recoil and an incredibly fast burst fire mode with a fast reload and high damage.",
+            "rank": "37"
+          },
+          {
+            "name": "L86 LSW",
+            "cal": "5.56 NATO",
+            "dmg": "35-25",
+            "cap": "30+1/210",
+			      "rpm": "610 AUTO",
+            "multi":"1.40/1.10",
+            "desc": "A heavyweight squad support variant of the L85A2. Feeds from 30 round magazines, but has an incredibly high bullet velocity. Very stable.",
+            "rank": "43"
+          },
+          {
+            "name": "RPK",
+            "cal": "7.62×39mmR",
+            "dmg": "42-32",
+            "cap": "45+1/180",
+			      "rpm": "600 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A heavy variant of the AK47 with a more durable reciever and heavy barrel. Packs a punch, but fires slowly, with strong recoil.",
+            "rank": "54"
+          },
           
-          
-          
+          {
+            "name": "HK21",
+            "cal": "7.62 NATO",
+            "dmg": "39-29",
+            "cap": "100/200",
+			      "rpm": "800 AUTO, 3×BURST",
+            "multi":"1.40/1.00",
+            "desc": "Belt-fed heavy variant of the G3 rifle. Fires at a high rate of speed from a 100 round box, but has awful recoil. Has a lengthy reload process.",
+            "rank": "67"
+          },
+      {
+            "name": "SCAR HAMR",
+            "cal": "5.56 NATO",
+            "dmg": "32-23",
+            "cap": "50+1/200",
+			      "rpm": "650 AUTO",
+            "multi":"1.40/1.10",
+            "desc": "A heavy-barrel version of the Belgian SCAR rifle with modifications to allow it to adapt to prolonged firing. Feeds from a 50 round drum, making it slow to reload. Uncannily stable.",
+            "rank": "72"
+          },
+            {
+            "name": "RPK74",
+            "cal": "5.45×39mmR",
+            "dmg": "36-21",
+            "cap": "45+1/180",
+			      "rpm": "650 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "An updated variant of the RPK based off the AK74, intended to use the less powerful 5.45x39mm cartridge for greater recoil control and better performance overall.",
+            "rank": "88"
+          },
+            {
+            "name": "MG3KWS",
+            "cal": "7.62 NATO",
+            "dmg": "38-23",
+            "cap": "50/300",
+			      "rpm": "1000 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "A belt-fed German LMG with roots dating back to the MG42. Fastest fire rate, but has a 50 round magazine, lower damage, and a lengthy reload process.",
+            "rank": "101"
+          },
+          {
+            "name": "MG42**",
+            "cal": "7.62 NATO",
+            "dmg": "36-20",
+            "cap": "50/250",
+			      "rpm": "1200 AUTO",
+            "multi":"1.40/1.00",
+            "desc": "The original, the iconic, the feared... The buzzsaw of the axis powers during the second world war, back to prove it’s worth in the modern warzone. Fires extremely fast and hits even harder, but is slow and inaccurate.",
+            "rank": "142"
+          },
+            
 		  
         ],
         sortBy: "rank",
