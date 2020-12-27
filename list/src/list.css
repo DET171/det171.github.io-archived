@@ -1,4 +1,10 @@
-	h1.ui.center.header {
+body {
+	font-family: times new roman;
+	background:black;
+	color: white;
+}
+
+h1.ui.center.header {
 			margin-top: 3em;
 		}
 
@@ -10,6 +16,7 @@
 		.hide {
 			display: none;
 		}
+
 		
 		.padded {
 			padding: 5px;
@@ -19,17 +26,23 @@
     .searchbar {
       margin: 10px;
       margin-right: 0px;
-      width: 90%;
+      width: 100%;
       background-color:lightblue;
       border: 1px solid black;
       display: inline !important;
       height: 25px;
+	border-radius: 2px;
+	padding: 20px !important;
+	font-size: 17px;
+	font-family: times new roman;
     }
     
     .searchbar:focus {
-      transition-duration:0.3s;
+      transition-duration:0.5s;
       background-color:lightgreen;
+	border: 1px solid black;
     } 
+
     
     #warn {
       text-align: center;
@@ -42,16 +55,40 @@
       line-height: 2;
       font-family:calibri;
     }
-    
- body {
-      font-family:times new roman;
-      
- }
-    
+
+
+
+
+
+tbody {
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background: black;
+  color: white;
+}
+
+table tr:nth-child(odd) {
+  background: #4d4d4d;
+}  
+
+    /*Optional table styling END*/
  
+    
+table {
+  font-family:times new roman;
+}
+
+mark {
+  color: red;
+}
+ 
+
     
      @media only screen and (max-width: 768px) {
       #warn {
         display: block;
       }
     } 
+    
