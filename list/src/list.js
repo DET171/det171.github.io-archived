@@ -5,14 +5,9 @@ function handleInput(e) {
    e.target.selectionStart = ss;
    e.target.selectionEnd = se;
 }
-
-
-
-
-
-
-
+  
 		new Vue({
+      
       el: "#main",
       data: {
         heading: "PF Gun List (WIP)",
@@ -146,7 +141,7 @@ function handleInput(e) {
             "dmg": "34-19",
             "cap": "20/60",
 			"rpm": "1200 AUTO",
-               "r":"",
+               "r":"21-65",
                "multi":"1.30/1.00",
             "desc": "A compact version of the Uzi, favored by criminals of all walks. Fires at an incredibly high rate of fire, but mind the ammo.",
                "rank": "68"
@@ -256,6 +251,7 @@ function handleInput(e) {
             "dmg": "8×29-8×16",
             "cap": "2+1/20",
 			      "rpm": "100 PUMP",
+            "r":"50-90",
             "multi":"1.10/1.00",
             "desc": "An ultra-short pump action shotgun based on the Remington 870. Small capacity with wide spread.",
             "rank": "36"
@@ -266,6 +262,7 @@ function handleInput(e) {
             "dmg": "100-85",
             "cap": "1/20",
 			      "rpm": "30 SINGLE SHOT",
+            "r":"50-250",
             "multi":"3.00/1.14",
             "desc": "A BFG 50 with the barrel hacked off. As should be expected from this 'modification', it hits hard, but is highly inaccurate at range.",
             "rank": "75"
@@ -276,6 +273,7 @@ function handleInput(e) {
             "dmg": "10×34-10×16",
             "cap": "1/20",
 			      "rpm": "90 SINGLE SHOT",
+            "r":"50-130",
             "multi":"1.50/1.00",
             "desc": "A single-action break-action grenade launcher that is loaded with 10-round hornet's nest of .22 Long Rifle and tons of other ammo using proper shells or adapters. First appeared during the Vietnam War, it earned many nicknames by the soldiers.",
             "rank": "79"
@@ -286,6 +284,7 @@ function handleInput(e) {
             "dmg": "8×29-8×16",
             "cap": "2/20",
 			      "rpm": "200 SEMI/INSTANT BURST (FIRES BOTH BARRELS AT ONCE)",
+            "r":"40-70",
             "multi":"1.10/1.00",
             "desc": "An ultra-short double-barreled shotgun. Capable of firing both barrels at once. Very wide spread.",
             "rank": "90"
@@ -296,6 +295,7 @@ function handleInput(e) {
             "dmg": "8×29-8×16",
             "cap": "2+3/20",
 			      "rpm": "350 SEMI",
+            "r": "40-70",
             "multi":"1.10/1.00",
             "desc": "A Saiga 12 without a stock and a very short barrel. Has a high rate of fire with a very wide spread and a small magazine.",
             "rank": "95"
@@ -306,6 +306,7 @@ function handleInput(e) {
             "dmg": "50-40",
             "cap": "5/30",
 			      "rpm": "80 BOLT",
+            "r": "100-150",
             "multi":"3.00/1.50",
             "desc": "A shortened Mosin Nagant intended for use by revolutionaries and insurgents. Inaccurate, but instantly kills with headshots.",
             "rank": "117"
@@ -316,6 +317,7 @@ function handleInput(e) {
             "dmg": "8×32-8×17",
             "cap": "14+1/50",
 			      "rpm": "130",
+            "r": "50-90",
             "multi":"1.10/1.00",
             "desc": "A high-capacity pump-action, bullpup American shotgun, with dual 7-round tubes. Wide spread.",
             "rank": "1"
@@ -326,6 +328,7 @@ function handleInput(e) {
             "dmg": "8×33-8×18",
             "cap": "6+1/50",
 			      "rpm": "100",
+            "r": "50-130",
             "multi":"1.14/1.00",
             "desc": "A traditional pump action shotgun with a 7-round tube and polymer furniture. Tight spread.",
             "rank": "11"
@@ -336,6 +339,7 @@ function handleInput(e) {
             "dmg": "8×29-8×17",
             "cap": "10+1/50",
 			      "rpm": "250 SEMI",
+            "r": "50-140",
             "multi":"1.10/1.00",
             "desc": "A conceptualized prototype weapon based on the AK12 platform. Semi automatic, feeding from a 10 round box magazines. Middling spread, low damage.",
             "rank": "24"
@@ -346,6 +350,7 @@ function handleInput(e) {
             "dmg": "8×37-8×21 (19**)",
             "cap": "3+1",
 			      "rpm": "65 PUMP",
+            "r": "60-110",
             "multi":"1.14/1.00",
             "desc": "A Russian shotgun built using 23mm aircraft gun barrels. This makes it the largest-bore shotgun in use, but it only fits 3 rounds in the tube. High damage, slow firerate, extremely tight spread.",
             "rank": "56"
@@ -356,6 +361,7 @@ function handleInput(e) {
             "dmg": "8×27-8×17 ",
             "cap": "8+1/50",
 			      "rpm": "350 SEMI",
+            "r": "60-130",
             "multi":"1.14/1.00",
             "desc": "A Russian shotgun based on the AK platform. It feeds from an 8-round box magazine and has a blisteringly fast fire rate, but a slow reload and wide spread.",
             "rank": "63"
@@ -365,6 +371,7 @@ function handleInput(e) {
             "cal": "12 GAUGE",
             "dmg": "8×36-8×19",
             "cap": "2/50",
+            "r": "75-145",
 			      "rpm": "200 SEMI/INSTANT BURST",
             "multi":"1.14/1.14",
             "desc": "A classic double-barrel shotgun with plenty of punch and an instantaneous burst. It spells doom for whatever's in front of it.",
@@ -376,6 +383,7 @@ function handleInput(e) {
             "dmg": "8×28-8×19",
             "cap": "8/56 (20/40 with 20rd DRUM)",
 			      "rpm": "300 AUTO",
+            "r": "50-100",
             "multi":"1.14/1.00",
             "desc": "An iconic American shotgun produced exclusively in fully automatic. It has one of the fastest fire rates, and can accept a 20 round drum magazine. Very low damage with very wide spread.",
             "rank": "112"
@@ -386,6 +394,7 @@ function handleInput(e) {
             "dmg": "8×30-8×18",
             "cap": "8+1/50",
 			      "rpm": "200 SEMI",
+            "r": "48-125",
             "multi":"1.14/1.00",
             "desc": "An iconic Italian gas-actuated combat shotgun, with a 7 round tube magazine. Features a fast fire rate and tight spread with high damage.",
             "rank": "120"
@@ -396,6 +405,7 @@ function handleInput(e) {
             "dmg": "33-20",
             "cap": "30+1/120",
 			      "rpm": "1000 3×BURST, 700 AUTO",
+            "r": "70-120",
             "multi":"1.40/1.00",
             "desc": "A prototype assault rifle from the Kalashnikov Concern based off the AK400. Intended to replace the AK74 in service with the Russian military. A jack of all trades, but a master of none.",
             "rank": "0"
@@ -406,6 +416,7 @@ function handleInput(e) {
             "dmg": "32-24",
             "cap": "30+1/120",
 			      "rpm": "1800 2×BURST, 600 AUTO",
+            "r": "50-120",
             "multi":"1.40/1.00",
             "desc": "A complex Russian assault rifle featuring a unique pulley-driven burst system. Fires two shots in the exact same place before recoil is felt.",
             "rank": "10"
@@ -416,6 +427,7 @@ function handleInput(e) {
             "dmg": "34-20",
             "cap": "20+1/120",
 			      "rpm": "900 AUTO",
+            "r": "50-85",
             "multi":"1.40/1.00",
             "desc": "A tactical upgrade to the SR-3M, with a large suppressor for the purpose of being used by Russian special-ops troops. High damage up close, but lacking damage at range.",
             "rank": "15"
@@ -426,6 +438,7 @@ function handleInput(e) {
             "dmg": "33-25",
             "cap": "30+1/120",
 			      "rpm": "625 AUTO",
+            "r": "60-120",
             "multi":"1.40/1.00",
             "desc": "A modular Belgian assault rifle, built specially to satisfy the needs of SOCOM. Steady fire rate with low recoil and high minimum damage.",
             "rank": "16"
@@ -436,6 +449,7 @@ function handleInput(e) {
             "dmg": "30-23",
             "cap": "30+1/120",
 			      "rpm": "680 AUTO",
+            "r": "60-190",
             "multi":"1.40/1.00",
             "desc": "An Austrian bullpup assault rifle with a built-in telescopic optic. Decently accurate with a long range and above-average fire rate. Press T and aim to use the scope.",
             "rank": "20"
@@ -447,6 +461,7 @@ function handleInput(e) {
             "cap": "30+1/120",
 			      "rpm": "900 3×BURST",
             "multi":"1.50/1.00",
+            "r": "40-165",
             "desc": "A traditional AR-15 platform assault rifle as used by the US military. This version features a burst-fire trigger group. Very accurate with low recoil and a long range. High vertical ADS recoil tho.",
             "rank": "22"
           },
@@ -456,6 +471,7 @@ function handleInput(e) {
             "dmg": "31-25",
             "cap": "30+1/120",
 			      "rpm": "750 AUTO",
+            "r": "80-140",
             "multi":"1.40/1.00",
             "desc": "A modern modular German assault rifle, designed to replace the G3 that was in service at the time. Originally issued with a special optics package. Middle-of-the-road rifle with a preference for ranged performance.",
             "rank": "25"
@@ -466,6 +482,7 @@ function handleInput(e) {
             "dmg": "32-22",
             "cap": "30+1/120",
 			      "rpm": "800 AUTO",
+            "r": "80-145",
             "multi":"1.40/1.00",
             "desc": "A traditional AR-15 platform assault rifle as used by the US military. This version features a fully automatic trigger group. Accurate with low recoil and a fast reload.",
             "rank": "31"
@@ -476,6 +493,7 @@ function handleInput(e) {
             "dmg": "34-20",
             "cap": "30+1/120",
 			      "rpm": "700 AUTO",
+            "r": "50-135",
             "multi":"1.40/1.00",
             "desc": "An intermediate upgrade to the AUG A1, foregoing the telescopic optic for a standard Picatinny rail. Trades ranged performance for close-in punch. Slow reload.",
             "rank": "39"
@@ -486,6 +504,7 @@ function handleInput(e) {
             "dmg": "34-20",
             "cap": "25+1/125",
 			      "rpm": "900 AUTO, 900 3×BURST",
+            "r": "70-140",
             "multi":"1.40/1.00",
             "desc": "A French bullpup assault rifle. Higher fire rate than average, but with lacking damage and a slow reload.",
             "rank": "45"
@@ -496,6 +515,7 @@ function handleInput(e) {
             "dmg": "42-30",
             "cap": "30+1/120",
 			      "rpm": "600 AUTO",
+            "r": "80-160",
             "multi":"1.40/1.00",
             "desc": "A Russian assault rifle. The most common rifle in the world, firing a heavy intermediate cartridge. High damage, high recoil.",
             "rank": "47"
@@ -506,6 +526,7 @@ function handleInput(e) {
             "dmg": "32-21",
             "cap": "30+1/120",
 			      "rpm": "720 AUTO",
+            "r": "70-140",
             "multi":"1.40/1.00",
             "desc": "A further revision of the AUG platform with additional minor revisions. Jack of all trades of the AUG family, but has noticeable horizontal recoil.",
             "rank": "52"
@@ -516,6 +537,7 @@ function handleInput(e) {
             "dmg": "28-25",
             "cap": "30+1/120",
 			      "rpm": "700 AUTO",
+            "r": "60-110",
             "multi":"1.40/1.00",
             "desc": "A British bullpup rifle, much maligned for its reliability until it was remodeled. High minimum damage, moderate recoil.",
             "rank": "55"
@@ -526,6 +548,7 @@ function handleInput(e) {
             "dmg": "31-24",
             "cap": "30+1/120",
 			      "rpm": "850 AUTO",
+            "r": "80-160", 
             "multi":"1.40/1.00",
             "desc": "A German assault rifle, deriving its design from the AR-15 platform. Made famous for its use by SEAL Team Six. Fast fire rate with high damage, but a slow reload.",
             "rank": "64"
@@ -537,6 +560,7 @@ function handleInput(e) {
             "cap": "30+1/120",
 			      "rpm": "650 AUTO",
             "multi":"1.40/1.00",
+            "r": "70-110",
             "desc": "A revision of the Kalashnikov system to accept the less powerful 5.45x39mm cartrige, improving weapon handling and accuracy.",
             "rank": "74"
           },
@@ -546,6 +570,7 @@ function handleInput(e) {
             "dmg": "40-32",
             "cap": "30+1/120",
 			      "rpm": "600 AUTO",
+            "r": "80-160",
             "multi":"1.40/1.00",
             "desc": "Modernized version of the AK47 rifle with various improvements to handling and functionality. Slightly reduced damage compared to the AK47 with a preference for recoil control.",
             "rank": "94"
@@ -557,6 +582,7 @@ function handleInput(e) {
             "cap": "30+1/120",
 			      "rpm": "600 AUTO",
             "multi":"1.40/1.00",
+            "r": "80-160",
             "desc": "A further modernized version of the AK platform, brought into the modern day with a polymer handguard and stock. Trades a small amount of close-range performance for a range preference.",
             "rank": "103"
           },
@@ -566,6 +592,7 @@ function handleInput(e) {
             "dmg": "29-22",
             "cap": "30+1/120",
 			      "rpm": "850 AUTO",
+            "r": "100-140",
             "multi":"1.50/1.10",
             "desc": "sraeli bullpup assault rifle chambered in standard 5.56x45 NATO. Features a long barrel for great ballistics over range.",
             "rank": "111"
@@ -576,6 +603,7 @@ function handleInput(e) {
             "dmg": "34-20",
             "cap": "75/150",
 			      "rpm": "600 AUTO",
+            "r": "75-135",
             "multi":"1.40/1.00",
             "desc": "An AK74 knock off for North Korean forces. Comes with a specialty overfolder stock, and absurdly large helical magazine. Extremely poor ergonomics plague this firearm.",
             "rank": "122"
@@ -587,6 +615,7 @@ function handleInput(e) {
             "cap": "30/150",
 			      "rpm": "1225 AUTO",
             "multi":"1.40/1.00",
+            "r": "90-150",
             "desc": "The M231 Firing Port Weapon is only intended to be used inside the Bradley AFV in a special mount. Hits hard, but good luck hitting anything... You're going to use it anyways, Boss?",
             "rank": "123"
           },
@@ -597,6 +626,7 @@ function handleInput(e) {
             "cap": "30+1/120",
 			      "rpm": "800 AUTO",
             "multi":"1.50/1.00",
+            "r": "100-200",
             "desc": "A Canadian iteration upon the US military's M16A2. Features a full auto trigger group, speedy reload and an integrated optic. This gun reminds you of a simpler time.",
             "rank": "128"
           },
@@ -606,6 +636,7 @@ function handleInput(e) {
             "dmg": "28-21",
             "cap": "45/180",
 			      "rpm": "2100 3×BURST, 460 AUTO",
+            "r": "90-145",
             "multi":"1.70/1.00",
             "desc": "A prototype German assault rifle that fires caseless rounds, allowing for more bullets in the same space. It features an incredibly fast 3-round burst mode, but otherwise fires very slowly. It is mechanically complex, making it unwieldy and bulky. Wait a minute, this is the future. Where are all the phaser guns?",
             "rank": "211"
@@ -616,6 +647,7 @@ function handleInput(e) {
             "dmg": "34-24",
             "cap": "30+1/120",
 			      "rpm": "750 AUTO",
+            "r": "55-162",
             "multi":"1.40/1.00",
             "desc": "A modernized south korean Assault Rifle stemming from the K1A rifle. It is quite a balanced rifle in most every field.",
             "rank": "42"
@@ -626,6 +658,7 @@ function handleInput(e) {
             "dmg": "45-38",
             "cap": "20+1/80",
 			      "rpm": "330 SEMI",
+            "r": "110-160",
             "multi":"1.50/1.20",
             "desc": "An American AR-10 platform rifle firing the 7.62 NATO round. Snappy, fast recoil and deep magazine with middling fire rate.",
             "rank": "3"
@@ -635,6 +668,7 @@ function handleInput(e) {
             "cal": "7.62×39mmR",
             "dmg": "40-32",
             "cap": "20+1/80",
+            "r": "100-150",
 			      "rpm": "433 SEMI",
             "multi":"1.50/1.20",
             "desc": "A modernized Tapco version of the traditional SKS carbine that saw use in WWII. Light recoil with moderate reserves and faster fire rate, but lower damage.",
@@ -646,6 +680,7 @@ function handleInput(e) {
             "dmg": "38-28",
             "cap": "30+1/120",
 			      "rpm": "625 SEMI",
+            "r": "88-148",
             "multi":"1.40/1.08",
             "desc": "A semi-automatic target rifle with a heavy barrel, sold as the civilian version of the famed G36. Very fast fire rate... if your trigger finger can keep up.",
             "rank": "38"
@@ -656,6 +691,7 @@ function handleInput(e) {
             "dmg": "55-38",
             "cap": "10+1/100",
 			      "rpm": "700 AUTO",
+            "r": "60-120",
             "multi":"1.80/1.40  ",
             "desc": "A DMR variant of the AS VAL intended for special operations where normal sniper rifles aren't viable. Fully automatic capable. Fast fire rate and high damage, with high recoil and low velocity.",
             "rank": "46"
@@ -666,6 +702,7 @@ function handleInput(e) {
             "dmg": "50-40",
             "cap": "10+1/120",
 			      "rpm": "355 SEMI",
+            "r": "110-200",
             "multi":"2.00/1.20",
             "desc": "A ruggedized PSG-1 intended for use in rapid-response operations such as hostage situations. Has a 10 round magazine, deep reserves, and a slightly faster fire rate, countered by strong recoil.",
             "rank": "59 "
@@ -676,6 +713,7 @@ function handleInput(e) {
             "dmg": "60-40",
             "cap": "10+1/70",
 			      "rpm": "400 SEMI",
+            "r": "85-150",
             "multi":"1.70/1.23",
             "desc": "A custom AR-15 platform rifle produced by Alexander Arms firing the heavy .50 Beowulf cartridge. Fast fire rate and high damage with poor velocity.",
             "rank": "70"
@@ -686,6 +724,7 @@ function handleInput(e) {
             "dmg": "48-30",
             "cap": "20+1/120",
 			      "rpm": "500 SEMI",
+            "r": "50-200",
             "multi":"2.10/1.10",
             "desc": "A semi-automatic FAL submitted for US military trials. Features a high fire rate and deep reserves, but becomes unstable under rapid fire and reloads slowly.",
             "rank": "78"
@@ -696,6 +735,7 @@ function handleInput(e) {
             "dmg": "57-48",
             "cap": "10+1/60",
 			      "rpm": "220 SEMI",
+            "r": "120-180",
             "multi":"2.00/1.70",
             "desc": "A heavy precision variant of the Belgian SCAR-H. Slowest fire rate in class with strong vertical recoil, but with fast recovery.",
             "rank": "85"
@@ -706,6 +746,7 @@ function handleInput(e) {
             "dmg": "52-30",
             "cap": "10+1/100",
 			      "rpm": "780 AUTO, 780 3×BURST",
+            "r": "80-150",
             "multi":"1.40/1.10",
             "desc": "A custom AR-15 platform rifle produced by Alexander Arms firing the .50 Beowulf round. Packs quite a punch, but exhausts its ammo quickly.",
             "rank": "21"
@@ -716,6 +757,7 @@ function handleInput(e) {
             "dmg": "42-29",
             "cap": "20+1/120",
 			      "rpm": "600 AUTO",
+            "r": "90-150",
             "multi":"1.40/1.10",
             "desc": "A Belgian rifle, favored by SOCOM. Stable, jack of all trades battle rifle.",
             "rank": "30"
@@ -726,6 +768,7 @@ function handleInput(e) {
             "dmg": "39-25",
             "cap": "20+1/120",
 			      "rpm": "700 AUTO, 1000 2×BURST",
+            "r": "80-140",
             "multi":"1.40/1.10",
             "desc": "A conceptualized Russian rifle using the AK12 platform. Features a 'balanced recoil' system, giving it very low recoil. High damage.",
             "rank": "44"
@@ -736,6 +779,7 @@ function handleInput(e) {
             "dmg": "35-25",
             "cap": "20+1/120",
 			      "rpm": "580 AUTO",
+            "r": "50-215",
             "multi":"2.00/1.00",
             "desc": "A German battle rifle featuring a roller-delayed blowback system. High fire rate, high recoil, middling reload speed.",
             "rank": "59"
@@ -746,6 +790,7 @@ function handleInput(e) {
             "dmg": "45-35",
             "cap": "20+1/120",
 			      "rpm": "525 AUTO",
+            "r": "100-170",
             "multi":"1.40/1.00",
             "desc": "A Norwegian take on the G3, featuring more modularity and special modifications made by the Norwegians. Slow fire rate with controllable recoil.",
             "rank": "76"
@@ -756,6 +801,7 @@ function handleInput(e) {
             "dmg": "40-32",
             "cap": "20+1/120",
 			      "rpm": "600 AUTO",
+            "r": "70-170",
             "multi":"1.40/1.10",
             "desc": "A German battle rifle, deriving its design from the AR-10 platform. Made famous for its use by SEAL Team Six. Easy to learn, but a slow reload.",
             "rank": "78"
@@ -765,6 +811,7 @@ function handleInput(e) {
             "cal": ".45-70",
             "dmg": "65-45",
             "cap": "5/50",
+            "r": "80-120",
 			      "rpm": "100 SEMI",
             "multi":"2.40/1.55",
             "desc": "A modern take on the classic lever-action rifle, firing the heavyweight .45-70 Government round. 5-round tube, slow muzzle velocity, but instantly kills to the head.",
@@ -776,6 +823,7 @@ function handleInput(e) {
             "dmg": "41-32",
             "cap": "20+1/120",
 			      "rpm": "700 AUTO",
+            "r": "80-180",
             "multi":"1.40/1.10",
             "desc": "A Belgian battle rifle that has rightfully earned the moniker of 'the right arm of the free world'. Fires quickly with moderate recoil, but suffers from a slow reload.",
             "rank": "107"
@@ -786,6 +834,7 @@ function handleInput(e) {
             "dmg": "34-19",
             "cap": "30+1/120",
 			      "rpm": "780 AUTO",
+            "r": "35-120",
             "multi":"1.40/1.00",
             "desc": "An American carbine based on the AR-15 platform. Fully automatic trigger group. Very stable firing characteristics, strong close range performance with weaker ranged performance.",
             "rank": "0"
@@ -796,6 +845,7 @@ function handleInput(e) {
             "dmg": "34-19",
             "cap": "30+1/120",
 			      "rpm": "750 AUTO",
+            "r": "70-160",
             "multi":"1.40/1.00",
             "desc": "A slightly shortened carbine variant of the G36 rifle, featuring a shorter handguard and barrel. Above average ranged performance with a compromise on close range damage.",
             "rank": "6  "
@@ -806,6 +856,7 @@ function handleInput(e) {
             "dmg": "35-19",
             "cap": "30+1/120",
 			      "rpm": "950 3×BURST",
+            "r": "35-100",
             "multi":"1.50/1.10",
             "desc": "An American carbine based on the AR-15 platform. Burst fire trigger group. Very stable firing characteristics with a high rate of fire. Compared to the M4A1, it has slightly higher damage.",
             "rank": "14"
@@ -816,6 +867,7 @@ function handleInput(e) {
             "dmg": "30-21",
             "cap": "30+1/120",
 			      "rpm": "775 AUTO",
+            "r": "40-90",
             "multi":"1.40/1.00",
             "desc": "A bullpup British carbine based on the L85A2. High rate of fire with above-average ranged performance and moderate recoil.",
             "rank": "28"
@@ -826,6 +878,7 @@ function handleInput(e) {
             "dmg": "36-19",
             "cap": "30+1/120",
 			      "rpm": "650 AUTO",
+            "r": "60-130",
             "multi":"1.40/1.00",
             "desc": "A carbine variant of the SCAR-L. Slow rate of fire, but has very strong close range performance and snappy weapon handling.",
             "rank": "32"
@@ -836,6 +889,7 @@ function handleInput(e) {
             "dmg": "35-19",
             "cap": "30+1/120",
 			      "rpm": "800 AUTO, 800 3×BURST",
+            "r": "30-95",
             "multi":"1.40/1.00",
             "desc": "A conceptualized Russian prototype carbine based on the AK12. Strong close-range performance with weak ranged performance and a high rate of fire.",
             "rank": "35"
@@ -846,6 +900,7 @@ function handleInput(e) {
             "dmg": "33-22",
             "cap": "30+1/120",
 			      "rpm": "750 AUTO",
+            "r": "50-120",
             "multi":"1.40/1.00",
             "desc": "A Russian bullpup carbine. Above-average perfomance in all respects with a stable firing characteristic.",
             "rank": "42"
@@ -856,6 +911,7 @@ function handleInput(e) {
             "dmg": "35-21",
             "cap": "30+1/120",
 			      "rpm": "700 AUTO",
+            "r": "45-100",
             "multi":"1.40/1.00",
             "desc": "A conceptualized Russian prototype carbine based on the AK12. Strong close range performance with slightly better ranged performance but a slower rate of fire.",
             "rank": "51"
@@ -867,6 +923,7 @@ function handleInput(e) {
             "cap": "30+1/120",
 			      "rpm": "800 AUTO",
             "multi":"1.40/1.00",
+            "r": "65-105",
             "desc": "A suppressed American carbine based on the AR-15 platform firing the .300 Blackout round. Moderate recoil with average performance all around.",
             "rank": "62"
           },
@@ -876,6 +933,7 @@ function handleInput(e) {
             "dmg": "34-20",
             "cap": "20+1/120",
 			      "rpm": "900 AUTO",
+            "r": "50-90",
             "multi":"1.40/1.00",
             "desc": "A Russian carbine chambered in 9x39mm, designed for police use. Exceptional close quarters performance, featuring a very high rate of fire with low recoil, but has a smaller magazine.  ",
             "rank": "69"
@@ -886,6 +944,7 @@ function handleInput(e) {
             "dmg": "36-20",
             "cap": "20+1/120",
 			      "rpm": "700 AUTO",
+            "r": "40-90",
             "multi":"1.40/1.00",
             "desc": "An integrally suppressed version of the Groza-1 firing 9x39mm. Excellent close-range performance with mild recoil, but a slower fire rate and smaller magazine.",
             "rank": "79"
@@ -897,6 +956,7 @@ function handleInput(e) {
             "cap": "20+1/120",
 			      "rpm": "540 AUTO",
             "multi":"1.40/1.10",
+            "r": "20-121",
             "desc": "An integrally suppressed version of the G3 rifle for special forces. Features battle rifle damage characteristics with mild recoil, slow fire rate, and a smaller magazine than average.",
             "rank": "86"
           },
@@ -905,6 +965,7 @@ function handleInput(e) {
             "cal": "7.62 NATO",
             "dmg": "44-23",
             "cap": "20+1/120",
+            "r": "70-200",
 			      "rpm": "700 AUTO",
             "multi":"1.40/1.10",
             "desc": " A paratrooper variant of the FAL 50.00. Features battle rifle damage characteristics. Heavy with strong recoil, high velocity, and a smaller magazine than average.",
@@ -916,6 +977,7 @@ function handleInput(e) {
             "dmg": "65-40",
             "cap": "6/72",
 			      "rpm": "110 SEMI",
+            "r": "30-140",
             "multi":"2.50/1.55",
             "desc": "A custom carbine variant of the 1858 New Army revolver. Very high damage capable of an instant kill to the head at any range, with a very slow fire rate and moderate muzzle velocity.",
             "rank": "93"
@@ -926,6 +988,7 @@ function handleInput(e) {
             "dmg": "36-20",
             "cap": "30+1/120",
 			      "rpm": "600 AUTO",
+            "r": "40-110",
             "multi":"1.40/1.00",
             "desc": "A modernized AK74 rifle with a carbine barrel. Slow firerate with high close-range damage and moderate muzzle velocity.",
             "rank": "105"
@@ -937,6 +1000,7 @@ function handleInput(e) {
             "cap": "6/75",
 			      "rpm": "300 SEMI",
             "multi":"1.80/1.25",
+            "r": "35-200",
             "desc": "A carbine variant of the Brazilian-made Judge revolver. High damage and firerate with harsh recoil and reduced magazine capacity.",
             "rank": "114"
           },
@@ -947,6 +1011,7 @@ function handleInput(e) {
             "cap": "6/42",
 			      "rpm": "400 SEMI",
             "multi":"2.50/1.25",
+            "r": "60-150",
             "desc": "A carbine variant of the Redhawk with a special suppressor. Lower damage and very slow velocity, with a high headshot multiplier, low recoil, and fast fire rate.",
             "rank": "125"
           },
@@ -956,6 +1021,7 @@ function handleInput(e) {
             "dmg": "27-20",
             "cap": "30+1/150",
 			      "rpm": "950 AUTO",
+            "r": "65-120",
             "multi":"1.50/1.00",
             "desc": "A modern revision of the Tavor, an Israeli carbine, uniquely chambered in 5.45x39. It further improves on the TAR design with improved ergonomics by moving the charging handle and redesigning the stock. High fire rate with better torso performance, but below average damage.",
             "rank": "130"
@@ -966,6 +1032,7 @@ function handleInput(e) {
             "dmg": "41-22",
             "cap": "100/200",
 			      "rpm": "950 AUTO, 950 3×BURST",
+            "r": "20-90",
             "multi":"1.40/1.00",
             "desc": "Aftermarket conversion of the HK21 heavy LMG. Fires at an extreme rate of speed from a 100 round box, but has awful recoil. Has a lengthy reload process.",
             "rank": "160"
@@ -976,6 +1043,7 @@ function handleInput(e) {
             "dmg": "33-19",
             "cap": "30+1/120",
 			      "rpm": "900 AUTO",
+            "r": "60-155",
             "multi":"1.40/1.00",
             "desc": "A south korean Carbine stemming from the prototype XK1 rifle. Much like K2, this rifle is quite balanced but leans more into CQC power.",
             "rank": "63"
@@ -986,6 +1054,7 @@ function handleInput(e) {
             "dmg": "30-17",
             "cap": "30+1/120",
 			      "rpm": "900 AUTO",
+            "r": "50-80",
             "multi":"1.40/1.00",
             "desc": "A sub-compact version of the German MP5. Very lightweight with high fire rate, short range, and manageable recoil.",
             "rank": "0"
@@ -995,6 +1064,7 @@ function handleInput(e) {
             "cal": ".45 ACP",
             "dmg": "38-21",
             "cap": "25+1/125",
+            "r": "60-100",
 			      "rpm": "600 AUTO",
             "multi":"1.40/1.00",
             "desc": "A mid-size German PDW. Fires the heavier .45 ACP round. Impressive ranged performance, but has a slow fire rate and slightly smaller magazine.",
@@ -1007,6 +1077,7 @@ function handleInput(e) {
             "cap": "30+1/120",
 			      "rpm": "750 AUTO",
             "multi":"1.40/1.00",
+            "r": "33-20",
             "desc": "An extremely short subcarbine variant of the G36 assault rifle. Being incredibly short, it can be used by armored vehicle crews. Trades some close range performance for better long range performance.",
             "rank": "7"
           },
@@ -1016,6 +1087,7 @@ function handleInput(e) {
             "dmg": "30-18",
             "cap": "30+1/120",
 			      "rpm": "950 AUTO",
+            "r": "40-90",
             "multi":"1.40/1.00",
             "desc": "A compact German PDW with a unique ammunition type, intended as a competitor to the P90. High fire rate and wall penetration, moderate range, poor ranged performance.",
             "rank": "9"
@@ -1025,6 +1097,7 @@ function handleInput(e) {
             "cal": ".45 ACP",
             "dmg": "36-19",
             "cap": "30/150",
+            "r": "20-70",
 			      "rpm": "1090 AUTO",
             "multi":"1.40/1.00",
             "desc": "An American PDW that fires .45 ACP at a blisteringly high rate of fire. Very lightweight. Poor accuracy while aimed, with stable hip-fire characteristics.",
@@ -1036,6 +1109,7 @@ function handleInput(e) {
             "dmg": "25-17",
             "cap": "50+1/150",
 			      "rpm": "900 AUTO",
+            "r": "70-110",
             "multi":"1.40/1.00",
             "desc": "A Belgian PDW with a unique magazine feed system and curious ergonomics. High magazine capacity and great wall penetration with moderate recoil and low damage.",
             "rank": "24"
@@ -1046,6 +1120,7 @@ function handleInput(e) {
             "dmg": "34-19",
             "cap": "30+1/120",
 			      "rpm": "800 AUTO",
+            "r": "25-120",
             "multi":"1.40/1.00",
             "desc": "A German PDW with a roller-delayed blowback system. It is one of the most popular weapons in the world. Middle-of-the-road performance in every respect.",
             "rank": "40"
@@ -1056,6 +1131,7 @@ function handleInput(e) {
             "dmg": "34-18",
             "cap": "32+1/128",
 			      "rpm": "1000 AUTO",
+            "r": "55-120",
             "multi":"1.40/1.00",
             "desc": "An American PDW based on the standard AR-15 platform. Very high fire rate with a slightly larger magazine and strong recoil.",
             "rank": "49"
@@ -1066,6 +1142,7 @@ function handleInput(e) {
             "dmg": "36-24",
             "cap": "34+1/128",
 			      "rpm": "550 AUTO",
+            "r": "45-105",
             "multi":"1.40/1.00",
             "desc": "A British PDW intended to replace the STEN in service. High damage with a low fire rate and uncanny stability.",
             "rank": "53"
@@ -1076,6 +1153,7 @@ function handleInput(e) {
             "dmg": "34-19",
             "cap": "30+1/120",
 			      "rpm": "800 AUTO",
+            "r": "22-110",
             "multi":"1.40/1.00",
             "desc": "An integrally suppressed version of the MP5 for special operations forces. Reduced range and velocity compared to the MP5, but with better recoil control.",
             "rank": "60"
@@ -1085,6 +1163,7 @@ function handleInput(e) {
             "cal": "9×19mm",
             "dmg": "29-23",
             "cap": "30+1/120",
+            "r": "80-150",
 			      "rpm": "850 AUTO",
             "multi":"1.40/1.00",
             "desc": "E-",
@@ -1097,6 +1176,7 @@ function handleInput(e) {
             "cap": "30+1/120",
 			      "rpm": "800 AUTO",
             "multi":"1.40/1.00",
+            "r": "70-125",
             "desc": "A customized MP5 chambered in the 10mm Auto cartridge. Greatly improved damage at all ranges, with worse recoil control.",
             "rank": "74"
           },
@@ -1106,6 +1186,7 @@ function handleInput(e) {
             "dmg": "48-25",
             "cap": "30/120",
 			      "rpm": "450 AUTO",
+            "r": "50-120",
             "multi":"1.65/1.10",
             "desc": "A vintage American World War II firearm, cheaply made out of stamped steel. Very slow fire rate, with high per-shot damage and decent ranged performance.",
             "rank": "71"
@@ -1116,6 +1197,7 @@ function handleInput(e) {
             "dmg": "35-18",
             "cap": "25/75",
 			      "rpm": "600 AUTO",
+            "r": "55-145",
             "multi":"1.55/1.10",
             "desc": "An Israeli submachine gun, favored by the IDF throughout the Cold War and famed for its reliability. Moderate rate of fire with low recoil and above-average damage.",
             "rank": "77"
@@ -1126,6 +1208,7 @@ function handleInput(e) {
             "dmg": "34-19",
             "cap": "25+1/125",
 			      "rpm": "780 AUTO, 780 3×BURST",
+            "r": "40-90",
             "multi":"1.40/1.00",
             "desc": "A paratrooper model of the AUG A3, chambered in 9mm. Slightly reduced magazine size compared to most other PDWs, but features impressive recoil control.",
             "rank": "80"
@@ -1136,6 +1219,7 @@ function handleInput(e) {
             "dmg": "30-17",
             "cap": "30+1/120",
 			      "rpm": "1100 AUTO, BURST",
+            "r": "60-152",
             "multi":"1.40/1.00",
             "desc": "A south korean SMG variant stemming from the K1A rifle. It has quick handling, and even quicker RPM, unlike most weapons of it's type it can equip a few barrel attachments!",
             "rank": "84"
@@ -1147,6 +1231,7 @@ function handleInput(e) {
             "cap": "30+1/120",
 			      "rpm": "735 AUTO",
             "multi":"1.40/1.00",
+            "r": "32-132",
             "desc": "An AKS-74U Personal Defense Weapon firing the 5.45x39mm cartridge. Fires much faster than the standard Kalashnikov automatic, and reloads at lightning fast speeds. Krinkov is the name given to extra short barreled AK’s in the USA market.",
             "rank": "88"
           },
@@ -1156,6 +1241,7 @@ function handleInput(e) {
             "dmg": "25-19",
             "cap": "71/213",
 			      "rpm": "1000 AUTO",
+            "r": "60-102",
             "multi":"1.40/1.00",
             "desc": "A vintage Russian World War II firearm. Features a high capacity drum magazine and a high fire rate, but per-shot damage is overall weak, and recoil is difficult to manage.",
             "rank": "92"
@@ -1166,6 +1252,7 @@ function handleInput(e) {
             "dmg": "40-24",
             "cap": "20+1/120",
 			      "rpm": "700 AUTO",
+            "r": "60-120",
             "multi":"1.40/1.10",
             "desc": "A heavily customized FAL 50.63, and as such has battle rifle characteristics. Has an incredibly short barrel, leading to poor recoil management and equally poor range.",
             "rank": "98"
@@ -1176,6 +1263,7 @@ function handleInput(e) {
             "dmg": "35-18",
             "cap": "25+1/150",
 			      "rpm": "1200 AUTO",
+            "r": "30-100",
             "multi":"1.40/1.00",
             "desc": "A uniquely designed American PDW with a special recoil management system. Extremely high fire rate with low recoil and poor ranged performance.",
             "rank": "100"
@@ -1186,6 +1274,7 @@ function handleInput(e) {
             "dmg": "34-18",
             "cap": "53+1/159",
 			      "rpm": "700 AUTO",
+            "r": "50-100",
             "multi": "1.40/1.00",
             "desc": "Kept ya waiting, huh? 9mm submachine gun developed in 1993 at Izhmash by a team of engineers headed by Victor Kalashnikov. Small but packs a punch with plenty of ammo to spit. Not great for ranged encounters.",
             "rank": "105"
@@ -1195,6 +1284,7 @@ function handleInput(e) {
             "cal": "9×19mm",
             "dmg": "38-22",
             "cap": "32/128",
+            "r": "50-100",
 			      "rpm": "550 AUTO",
             "multi":"1.65/1.00",
             "desc": "A vintage German World War II firearm. Fires at a lower fire rate, but is relatively accurate with manageable recoil and reasonable ranged performance.",
@@ -1206,6 +1296,7 @@ function handleInput(e) {
             "dmg": "32-18.2",
             "cap": "32+1/160",
 			      "rpm": "750 AUTO",
+            "r": "45-130",
             "multi":"1.50/1.10",
             "desc": "A 9mm conversion of the Tavor X95, which uses standard Uzi magazines. This conversion of the Tavor allows for the replacement of traditional SMGs with a modern platform. Better torso performance with slightly below-average damage.",
             "rank": "115"
@@ -1216,6 +1307,7 @@ function handleInput(e) {
             "dmg": "37-19",
             "cap": "20/160",
 			      "rpm": "725 AUTO",
+            "r": "60-120",
             "multi":"1.40/1.00",
             "desc": "An iconic American World War I-era firearm designed in 1921. Fires .45 ACP, making for heavy recoil, but has incredible stopping power up close. Has multiple magazine options.  Make him an offer he can't refuse.",
             "rank": "121"
@@ -1226,6 +1318,7 @@ function handleInput(e) {
             "dmg": "90-80",
             "cap": "7+8/42",
 			      "rpm": "50 BOLT",
+            "r": "150-250",
             "multi":"3.00/1.11",
             "desc": "An American bolt-action sniper rifle famed for its precision and power. Slow fire rate, large magazine size.",
             "rank": "0"
@@ -1234,6 +1327,7 @@ function handleInput(e) {
             "name": "REMINGTON 700",
             "cal": ".308 WINCHESTER/7.62 NATO",
             "dmg": "75-70",
+            "r": "50-200",
             "cap": "6+1/48",
 			      "rpm": "60 BOLT",
             "multi":"3.00/1.35",
@@ -1245,6 +1339,7 @@ function handleInput(e) {
             "cal": "7.62×54mmR",
             "dmg": "60-50",
             "cap": "10+1/60",
+            "r": "120-200",
 			      "rpm": "150 SEMI",
             "multi":"1.90/1.40",
             "desc": "A modern semi-automatic bullpup Russian sniper rifle with a high rate of fire, but lacking stopping power at range.",
@@ -1254,7 +1349,8 @@ function handleInput(e) {
             "name": "AWS",
             "cal": ".308 WINCHESTER/7.62 NATO",
             "dmg": "80-70",
-            "cap": "",
+            "cap": "10+1/60",
+            "r": "50-115",
 			      "rpm": "55 BOLT",
             "multi":"3.00/1.25",
             "desc": "A suppressed version of the L115A3(AWM) firing a smaller cartridge. Suffers from reduced velocity, but feeds from a 10 round magazine, with middling firerate.",
@@ -1266,6 +1362,7 @@ function handleInput(e) {
             "cal": ".50 BMG",
             "dmg": "100-95",
             "cap": "1/42",
+            "r": "50-250",
 			      "rpm": "16 BREECH LOADED",
             "multi":"3.00/1.50",
             "desc": "An American anti-materiel rifle. Hits like a truck, but only chambers a single round, necessitating frequent reloads.",
@@ -1277,6 +1374,7 @@ function handleInput(e) {
             "dmg": "82-70",
             "cap": "5+1/1.25",
 			      "rpm": "50 BOLT",
+            "r": "60-140",
             "multi":"3.00/1.25",
             "desc": "A British bolt-action sniper rifle with a high rate of fire and a powerful cartridge, but a smaller magazine than normal.",
             "rank": "82"
@@ -1287,6 +1385,7 @@ function handleInput(e) {
             "dmg": "100-65",
             "cap": "5+1/45",
 			      "rpm": "45 BOLT",
+              "r": "35-155",
             "multi":"3.00/1.25",
             "desc": "A Finnish bolt-action rifle. Higher-than-average velocity with a fast reload, but slow bolt chambering action.",
             "rank": "84"
@@ -1296,6 +1395,7 @@ function handleInput(e) {
             "cal": "7.62×39mmR",
             "dmg": "60-50",
             "cap": "5/50",
+            "r": "150-250",
 			      "rpm": "70 BOLT",
             "multi":"3.00/1.50",
             "desc": "A vintage Russian sniper rifle dating from the 1900s. 5-round internal magazine makes for quick reloading, alongside a reasonably swift fire rate. Poor damage to the body.",
@@ -1306,6 +1406,7 @@ function handleInput(e) {
             "cal": "7.62×54mmR",
             "dmg": "70-60",
             "cap": "10+1/50",
+            "r": "70-250",
 			      "rpm": "60 SEMI",
             "multi":"1.80/1.43",
             "desc": "A paratrooper version of the SVD rifle, with a light frame and a folding stock. Semi-automatic with 10 round magazine, but suffers from poor recoil recovery.",
@@ -1313,10 +1414,11 @@ function handleInput(e) {
           },
           {
             "name": "K14",
-            "cal": "--",
+            "cal": ".308 WINCHESTER/7.62 NATO",
             "dmg": "68-55",
             "cap": "10+1/50",
 			      "rpm": "50 BOLT",
+            "r": "90-220",
             "multi":"3.00/1.50",
             "desc": "A south korean sniper rifle with light weight design. Balanced overall stats with lots of range, but slow bolting speed.",
             "rank": "138"
@@ -1326,6 +1428,7 @@ function handleInput(e) {
             "cal": ".50 BMG",
             "dmg": "97-93",
             "cap": "7+1/28",
+            "r": "40-200",
 			      "rpm": "28 BOLT",
             "multi":"3.00/1.80",
             "desc": "A French magazine-fed .50 BMG rifle. Sure, you could shoot someone from across the map with this, but the bolt takes a long time to cycle, and the reload is by no means swift.",
@@ -1337,6 +1440,7 @@ function handleInput(e) {
             "dmg": "98-88",
             "cap": "5+1/35",
 			      "rpm": "80 SEMI",
+            "r": "50-150",
             "multi":"3.00/1.50",
             "desc": "A magazine-fed semi-automatic .50 BMG rifle. Lethargic handling, reload, and mobility with very high damage. Big whoop, I've got a Barrett .50 cal. I could kill a building.",
             "rank": "170"
@@ -1348,6 +1452,7 @@ function handleInput(e) {
             "cap": "8+1/64",
 			      "rpm": "85 BOLT",
             "multi":"4.00/1.10",
+            "r": "25-150",
             "desc": "An Austrian scout sniper rifle firing a specially-designed round. Poor damage to the body, but instantly kills to the head at any range, with the fastest bolt cycling rate in class.",
             "rank": "195"
           },
@@ -1356,6 +1461,7 @@ function handleInput(e) {
             "cal": ".300 WINCHESTER MAGNUM",
             "dmg": "72-66",
             "cap": "6+1/42",
+            "r": "20-175",
 			      "rpm": "90 SEMI",
             "multi":"1.85/1.36",
             "desc": "A semi-automatic German bullpup intended for law enforcement as a counter-terrorist weapon. Very few were made, making it highly sought after. Fast fire rate, moderate damage, poor recoil control. Section 26, paragraph 5 - need to know. I'm sure you understand.",
@@ -1367,6 +1473,7 @@ function handleInput(e) {
             "dmg": "35-20",
             "cap": "60/180",
 			      "rpm": "700 AUTO",
+            "r": "75-145",
             "multi":"1.40/1.10",
             "desc": "A squad assault rifle based on the AR-15 platform with a heavy barrel, large shroud and 60-round magazine. A jack of all trades, with a slow reload.",
             "rank": "0"
@@ -1376,6 +1483,7 @@ function handleInput(e) {
             "cal": "7.62 NATO",
             "dmg": "40-26",
             "cap": "100/200",
+            "r": "120-190",
 			      "rpm": "600 AUTO",
             "multi":"1.00/1.00",
             "desc": "A heavy American belt-fed machine gun. Fires slowly and accurately with high damage, but must be reloaded via a lengthy process.",
@@ -1385,6 +1493,7 @@ function handleInput(e) {
             "name": "AUG HBAR",
             "cal": "5.56 NATO",
             "dmg": "35-23",
+            "r": "30-190",
             "cap": "42/172",
 			      "rpm": "650 AUTO",
             "multi":"1.40/1.10",
@@ -1395,6 +1504,7 @@ function handleInput(e) {
             "name": "MG36",
             "cal": "5.56 NATO",
             "dmg": "30-23",
+            "r": "70-100",
             "cap": "100+1/200",
 			      "rpm": "750 AUTO",
             "multi":"1.40/1.00",
@@ -1405,6 +1515,7 @@ function handleInput(e) {
             "name": "RPK12",
             "cal": "5.45×39mmR",
             "dmg": "32-21",
+            "r": "100-180",
             "cap": "45+1/135",
 			      "rpm": "700 AUTO, 1000 3×BURST",
             "multi":"1.40/1.00",
@@ -1416,6 +1527,7 @@ function handleInput(e) {
             "cal": "5.56 NATO",
             "dmg": "35-25",
             "cap": "30+1/210",
+            "r": "35-25",
 			      "rpm": "610 AUTO",
             "multi":"1.40/1.10",
             "desc": "A heavyweight squad support variant of the L85A2. Feeds from 30 round magazines, but has an incredibly high bullet velocity. Very stable.",
@@ -1427,6 +1539,7 @@ function handleInput(e) {
             "dmg": "42-32",
             "cap": "45+1/180",
 			      "rpm": "600 AUTO",
+            "r": "42-32",
             "multi":"1.40/1.00",
             "desc": "A heavy variant of the AK47 with a more durable reciever and heavy barrel. Packs a punch, but fires slowly, with strong recoil.",
             "rank": "54"
@@ -1437,6 +1550,7 @@ function handleInput(e) {
             "cal": "7.62 NATO",
             "dmg": "39-29",
             "cap": "100/200",
+            "r": "80-150",
 			      "rpm": "800 AUTO, 3×BURST",
             "multi":"1.40/1.00",
             "desc": "Belt-fed heavy variant of the G3 rifle. Fires at a high rate of speed from a 100 round box, but has awful recoil. Has a lengthy reload process.",
@@ -1447,6 +1561,7 @@ function handleInput(e) {
             "cal": "5.56 NATO",
             "dmg": "32-23",
             "cap": "50+1/200",
+        "r": "110-180",
 			      "rpm": "650 AUTO",
             "multi":"1.40/1.10",
             "desc": "A heavy-barrel version of the Belgian SCAR rifle with modifications to allow it to adapt to prolonged firing. Feeds from a 50 round drum, making it slow to reload. Uncannily stable.",
@@ -1456,6 +1571,7 @@ function handleInput(e) {
             "name": "RPK74",
             "cal": "5.45×39mmR",
             "dmg": "36-21",
+              "r": "90-170",
             "cap": "45+1/180",
 			      "rpm": "650 AUTO",
             "multi":"1.40/1.00",
@@ -1467,6 +1583,7 @@ function handleInput(e) {
             "cal": "7.62 NATO",
             "dmg": "38-23",
             "cap": "50/300",
+              "r": "60-168",
 			      "rpm": "1000 AUTO",
             "multi":"1.40/1.00",
             "desc": "A belt-fed German LMG with roots dating back to the MG42. Fastest fire rate, but has a 50 round magazine, lower damage, and a lengthy reload process.",
@@ -1478,6 +1595,7 @@ function handleInput(e) {
             "dmg": "36-20",
             "cap": "50/250",
 			      "rpm": "1200 AUTO",
+            "r": "50-250",
             "multi":"1.40/1.00",
             "desc": "The original, the iconic, the feared... The buzzsaw of the axis powers during the second world war, back to prove it’s worth in the modern warzone. Fires extremely fast and hits even harder, but is slow and inaccurate.",
             "rank": "142"
@@ -1496,7 +1614,7 @@ function handleInput(e) {
           return this.lists.filter(
             list => list.name.includes(this.filterByName)
           ).sort(
-            (a, b) => a[this.sortBy] - b[this.sortBy]
+            (a, b) => a[this.sortBy].localeCompare(b[this.sortBy])
           );
         }
       }
