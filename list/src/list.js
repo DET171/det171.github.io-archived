@@ -5,7 +5,13 @@ function handleInput(e) {
    e.target.selectionStart = ss;
    e.target.selectionEnd = se;
 }
-  
+
+
+
+
+
+
+
 		new Vue({
       el: "#main",
       data: {
@@ -19,7 +25,9 @@ function handleInput(e) {
 			"rpm": "780",
                    "multi":"1.50/1.10",
             "desc": "A 9mm Italian pistol. One of the first 'wonder nines'. High capacity with deep reserves, light recoil, and high velocity. ",
+          "r": "40-80",
              "rank": "0"
+             
           },
 		  {
             "name": "GLOCK 17 (G17)",
@@ -27,6 +35,7 @@ function handleInput(e) {
             "dmg": "34-10",
             "cap": "17+1/102",
 			"rpm": "780",
+            "r":"40-90",
             "multi":"1.50/1.10",
             "desc": "A 9mm Austrian pistol renowned for its simplicity and ruggedness. Compared to the M9, it has a higher capacity, but less muzzle velocity.",
         "rank": "0"
@@ -37,6 +46,7 @@ function handleInput(e) {
             "dmg": "48-29",
             "cap": "8+1/56",
 			"rpm": "720",
+        "r":"55-90",
         "multi":"1.40/1.15",
             "desc": "A classic American pistol brought into the modern age. Very high damage up close, with poor velocity and small magazine size.",
         "rank": "8"
@@ -47,6 +57,7 @@ function handleInput(e) {
             "dmg": "56-32",
             "cap": "8+1/40",
 			"rpm": "400",
+            "r":"50-80",
             "multi":"2.00/  1.30",
             "desc": "A modern version of the iconic Israeli-American pistol. This specific model has been lightened as well as upgraded with dual Picatinny rails and a much-needed muzzle brake. Very high damage with the capacity to instantly kill to the head up close, with rough recoil.",
             "rank": "18"
@@ -57,6 +68,7 @@ function handleInput(e) {
             "dmg": "45-28",
             "cap": "10+1/60",
 			"rpm": "670",
+             "r":"50-95",
              "multi":"1.40/1.15",
             "desc": "A modern American pistol with many custom parts. High damage, medium capacity, strong recoil.",
              "rank": "34"
@@ -68,6 +80,7 @@ function handleInput(e) {
             "dmg": "29-22",
             "cap": "20+1/100",
 			"rpm": "800",
+              "r":"80-120",
               "multi":"1.40/1.20",
             "desc": "A modern Belgian pistol firing a unique caliber. Poor close-in performance, with great ranged performance, high velocity, large magazine, wall penetration and deep reserves.",
               "rank": "57"
@@ -78,6 +91,7 @@ function handleInput(e) {
             "dmg": "15-12",
             "cap": "10+1/180",
 			"rpm": "1000 SEMI",
+             "r":"30-60",
              "multi":"2.80/1.00",
             "desc": "A modern American 'pistol' with questionable quality. Abysmal damage, but with deep reserves and a high headshot multiplier. A weapon so bad it killed a million dollar company. 3 shots to the head at all ranges.",
              "rank": "61"
@@ -88,6 +102,7 @@ function handleInput(e) {
             "dmg": "72-37",
             "cap": "7+1/21",
 			"rpm": "400",
+              "r":"40-82",
               "multi":"2.50/1.40",
             "desc": "Finally, a gun that lets you make a statement. This semi-automatic hand cannon is chambered in .50 Action Express. It'll probably pulverize your wrists with its recoil, but hey, you can't argue with the stopping power. And you've got the king of mayhem...",
               "rank": "102"
@@ -99,7 +114,7 @@ function handleInput(e) {
             "cap": "19+1/57",
 			"rpm": "1100 AUTO",
             "multi":"1.40/1.00",
-            
+            "r":"20-60",
             "desc": "A 9mm Austrian machine pistol. Fast fire rate with relatively stable handling characteristics.",
             "rank": "17"
           },
@@ -110,7 +125,7 @@ function handleInput(e) {
             "cap": "20+1/80",
 			"rpm": "1100 3×BURST",
                "multi":"1.40/1.00",
-               
+               "r":"30-60",
             "desc": "An Italian machine pistol that fires rapid 3-round bursts. Strong vertical recoil with high close-in damage.",
                "rank": "26"
           },
@@ -120,6 +135,7 @@ function handleInput(e) {
             "dmg": "28-20",
             "cap": "20/60",
 			"rpm": "1500 AUTO",
+               "r":"21-65",
                "multi":"1.40/1.00",
             "desc": "A Swedish machine pistol with an incredibly high rate of fire, but lacks stopping power and has highly unstable handling.",
                "rank": "50"
@@ -130,6 +146,7 @@ function handleInput(e) {
             "dmg": "34-19",
             "cap": "20/60",
 			"rpm": "1200 AUTO",
+               "r":"",
                "multi":"1.30/1.00",
             "desc": "A compact version of the Uzi, favored by criminals of all walks. Fires at an incredibly high rate of fire, but mind the ammo.",
                "rank": "68"
@@ -140,6 +157,7 @@ function handleInput(e) {
             "dmg": "34-19",
             "cap": "20+1/60",
 			"rpm": "850 AUTO",
+            "r":"40-90",
             "multi":"1.40/1.00",
             "desc": "Czechoslovakia machine pistol of iconic design made in 1959 by Miroslav Rybář. It does have faults but at the same it is reliable with low recoil and good damage in close ranges.",
             "rank": "87"
@@ -150,6 +168,7 @@ function handleInput(e) {
             "dmg": "36-20",
             "cap": "15+1/45",
 			"rpm": "1000 AUTO",
+            "r":"25-70",
             "multi":"1.40/1.00",
             "desc": "A custom 1911 prototype from the Philippines. Features a custom foregrip and muzzle device for very stable firing characteristics, but has a bulky magazine resulting in slow reloads.",
             "rank": "106"
@@ -160,6 +179,7 @@ function handleInput(e) {
             "dmg": "34-20",
             "cap": "20+1.80",
 			"rpm": "800 AUTO",
+            "r":"45-75",
             "multi":"1.40/1.00",
             "desc": "Bushmaster ARM firearm legally categorized as a pistol. Despite the appearance it actually bears more mechanical similarity to the AK47. Good for damage and reload speed.",
             "rank": "87"
@@ -170,6 +190,7 @@ function handleInput(e) {
             "dmg": "56-28",
             "cap": "6/42",
 			"rpm": "600 SEMI",
+            "r":"65-100",
             "multi":"3.00/1.40",
             "desc": "A break-open revolver prototype from Russia intended for export. High close-in damage and headshot multiplier with low ranged damage and a fast rate of fire.",
             "rank": "4"
@@ -180,6 +201,7 @@ function handleInput(e) {
             "dmg": "56-30",
             "cap": "6/42",
 			"rpm": "600 SEMI",
+            "r":"76-100",
             "multi":"2.50/1.40",
             "desc": "An Italian semi-automatic revolver. High close-in damage with better ranged performance, fast drop-off, fast rate of fire and unusual recoil.",
             "rank": "29"
@@ -191,6 +213,7 @@ function handleInput(e) {
             "cap": "6/42",
 			"rpm": "140 SEMI, 350 FAN FIRE",
             "multi":"2.50/1.40",
+            "r":"75-140",
             "desc": "A modern reproduction of a vintage American ball-and-cap revolver. Single-action revolver with a slow rate of fire, excellent ranged performance, and the ability to fan-fire at high speed.",
             "rank": "58"
           },
@@ -200,6 +223,7 @@ function handleInput(e) {
             "dmg": "59-35",
             "cap": "6/42",
 			"rpm": "400 SEMI",
+            "r":"50-100",
             "multi":"2.50/1.25",
             "desc": "A traditional American revolver. Very high damage overall with a slow rate of fire and strong muzzle flip.",
             "rank": "83"
@@ -210,6 +234,7 @@ function handleInput(e) {
             "dmg": "80-38",
             "cap": "6/30",
 			"rpm": "300 SEMI",
+            "r":"55-120",
             "multi":"2.50/1.30",
             "desc": "A full-size Brazilian revolver, loaded with .454 Casull for incredible stopping power. Massive damage up close with a high headshot multiplier, with harsh recoil and slow recovery.",
             "rank": "137"
@@ -220,6 +245,7 @@ function handleInput(e) {
             "dmg": "4×40-4×20",
             "cap": "5/25",
 			"rpm": "300 SEMI",
+            "r":"25-60",
             "multi":"1.14/1.00",
             "desc": "A compact Brazilian revolver firing .410 shotshells. High per-pellet damage with moderate spread and fast rate of fire.",
             "rank": "113"
@@ -1470,7 +1496,7 @@ function handleInput(e) {
           return this.lists.filter(
             list => list.name.includes(this.filterByName)
           ).sort(
-            (a, b) => a[this.sortBy].localeCompare(b[this.sortBy])
+            (a, b) => a[this.sortBy] - b[this.sortBy]
           );
         }
       }
