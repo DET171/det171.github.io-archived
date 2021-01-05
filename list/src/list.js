@@ -147,7 +147,7 @@ function handleInput(e) {
                "rank": "68"
           },
           {
-            "name": "ŠKORPION VZ. 61 (CZ-3A1) **",
+            "name": "ŠKORPION VZ. 61 (CZ-3A1)",
             "cal": ".32 ACP",
             "dmg": "34-19",
             "cap": "20+1/60",
@@ -156,6 +156,17 @@ function handleInput(e) {
             "multi":"1.40/1.00",
             "desc": "Czechoslovakia machine pistol of iconic design made in 1959 by Miroslav Rybář. It does have faults but at the same it is reliable with low recoil and good damage in close ranges.",
             "rank": "87"
+          },
+		  {
+            "name": "GB-22",
+            "cal": ".22 LONG RIFLE",
+            "dmg": "20-15",
+            "cap": "1/50",
+			"rpm": "50 SEMI",
+            "r":"CURRENTLY UNAVAILABE",
+            "multi":"10.00/1.00",
+            "desc": "CURRENTLY UNAVAILABLE",
+            "rank": "99"
           },
           {
             "name": "MP1911",
@@ -169,10 +180,10 @@ function handleInput(e) {
             "rank": "106"
           },
 		      {
-            "name": "ARM PISTOL **",
+            "name": "ARM PISTOL",
             "cal": "5.56 NATO",
             "dmg": "34-20",
-            "cap": "20+1.80",
+            "cap": "20+1/80",
 			"rpm": "800 AUTO",
             "r":"45-75",
             "multi":"1.40/1.00",
@@ -1605,16 +1616,14 @@ function handleInput(e) {
         ],
         sortBy: "rank",
         filterByName: "",
-        filterByCal: "",
         counter: 0
       },
       
       computed: {
+		  
         sortedlists() {
           return this.lists.filter(
-            list => list.name.includes(this.filterByName)
-          ).sort(
-            (a, b) => a[this.sortBy] - b[this.sortBy]
+            list => list.name.includes(this.filterByName)).sort((a, b) => a[this.sortBy] - b[this.sortBy]
           );
         }
       }
