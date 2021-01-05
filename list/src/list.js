@@ -1614,7 +1614,7 @@ function handleInput(e) {
           return this.lists.filter(
             list => list.name.includes(this.filterByName)
           ).sort(
-            (a, b) => a[this.sortBy].localeCompare(b[this.sortBy])
+            (a, b) => a[this.sortBy] - b[this.sortBy]
           );
         }
       }
