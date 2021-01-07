@@ -4,6 +4,9 @@
 <html lang="en">
 
 <head>
+<script>
+console.log("If some functions don't work, try reloading the page.");
+</script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -53,6 +56,7 @@ $(document).ready(function(){
       
   <input class="searchbar" v-model="filterByName" placeholder="Search By Name" oninput="handleInput(event)">
   
+<button class="btn btn-warning" onclick="toggleShow()"><b class="rounded tBorder">&nbsp;?&nbsp;</b></button>
 
       <button type="button" id="modal-open" class="btn btn-lg btn-primary">Advanced [BETA]</button>
 	</div>
@@ -61,6 +65,15 @@ $(document).ready(function(){
         <p>
           All 9mm & 9×19mm are 9×19mm Parabellum unless otherwise stated. All Rate of Fire are SEMI-AUTOMATIC unless otherwise stated.
         </p><p>** - Still in testing phase (test place)</p></div>
+		
+<div class="hide" id="info">Thank you very much for visiting this website! You could have used PF Wiki, but you used this!
+Thank you very much indeed. Here are some PROS of using this:<br>
+<ul>
+<li>Faster results.</li>
+<li>Faster redering time.</li>
+<li>No Ads!</li>
+</ul>
+</div>
 
 			<table class="ui celled table">
 				<thead>

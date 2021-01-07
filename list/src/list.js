@@ -5,6 +5,14 @@ function handleInput(e) {
    e.target.selectionStart = ss;
    e.target.selectionEnd = se;
 }
+function toggleShow() {
+  var x = document.getElementById('info');
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
   
 		new Vue({
       
@@ -1620,13 +1628,20 @@ function handleInput(e) {
       },
       
       computed: {
-		  
-        sortedlists() {
-          return this.lists.filter(
-            list => list.name.includes(this.filterByName)).sort((a, b) => a[this.sortBy] - b[this.sortBy]
-          );
-        }
-      }
+    sortedlists() {
+      return this.lists
+        .filter((list) => list.name.includes(this.filterByName))
+        .sort((a, b) => {
+          const aVal = a[this.sortBy]
+          const bVal = b[this.sortBy]
+          if (/^\d+$/.test(aVal) && /^\d+$/.test(bVal)) {
+            return aVal - bVal
+          } else {
+            return aVal.localeCompare(bVal)
+          }
+        });
+    }
+  }
     });
 
 
