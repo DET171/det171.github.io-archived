@@ -2,6 +2,7 @@ body {
 	font-family: times new roman;
 	background:black;
 	color: white !important;
+	line-height: 30px;
 }
 
 h1.ui.center.header {
@@ -607,15 +608,12 @@ fieldset[disabled] .btn-warning.focus {
 }
 
 .s-overlay {
-  height: 0;
-  width: 100%;
-  position: fixed;
+  
   z-index: 1;
   top: 0;
   left: 0;
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0, 0.9);
-  overflow-x: hidden;
   transition: 0.5s;
 }
 
@@ -635,8 +633,6 @@ fieldset[disabled] .btn-warning.focus {
   margin-top: 30px;
   font-size: 18px;
   padding: 20px;
-  overflow: auto;
-  height: 80%;
 }
 
 
@@ -648,16 +644,7 @@ fieldset[disabled] .btn-warning.focus {
   display: block;
   transition: 0.3s;
 }
-.s-overlay a.c {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-  margin: 10px;
-  float: right;	
-}
+
 .s-overlay a.c:hover, .s-overlay a.c:focus, .overlay a.c:hover, .overlay a.c:focus {
   color: #f1f1f1;
 }
@@ -736,3 +723,23 @@ fieldset[disabled] .btn-link:focus {
   text-decoration: none;
 }
 
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
