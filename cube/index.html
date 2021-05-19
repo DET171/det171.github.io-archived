@@ -4,14 +4,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>CFOP Tutorial</title>
   <script async src="jquery.js"></script>
 <script async src="roofpig.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="index.css" >
 </head>
 <body>
-
-
+<noscript>Sorry. This page requires JavaScript to work.</noscript>
+<div class="hide" id="showlater">
 
 <div class="tab">
   <button class="tablinks" onclick="openTab(event, 'cross')" id="default">Cross</button>
@@ -73,10 +74,25 @@
   <h3>OLL</h3>
   <p>Make the entire top side (the last layer) of the cube a solid color. 57 nontrivial cases.
 
-Those new to OLL break up the step into two (a.k.a. 2-look OLL). This greatly reduces the number of cases; 2-look OLL has 9 cases. <i>However, note that this is a few seconds slower.</i></p>
+Those new to OLL break up the step into two (a.k.a. 2-look OLL). This greatly reduces the number of cases; 2-look OLL has 9 cases. <i>However, note that this is a few seconds slower.</i></p><span>Note: Some cases have more than one way of solving, so you may see repeated cases.</span>
 
 <hr><h3>Algorithms</h3><p>The cases 'Opposite', 'Adjacent', 'None', 'Sune', 'Anti-Sune', 'Car', 'Blinker', 'Headlights', 'Chameleon', and 'Bowtie' need to be learnt for 2-look OLL.</p>
-<div class="roofpig" data-config="alg=F R U R' U' F'|solved=U*/c|flags=showalg">Opposite</div>
+<div class="roofpig" data-config="alg=F R U R' U' F'|solved=U*/c|flags=showalg">Opposite/I</div>
+<div class="roofpig" data-config="alg=f R U R' U' f'|solved=U*/c|flags=showalg">Adjacent/L</div>
+<div class="roofpig" data-config="alg=F R U R' U' F' f R U R' U' f'|solved=U*/c|flags=showalg">None/Dot</div>
+<div class="roofpig" data-config="alg=R U R' U R U2 R'|solved=l r b f|flags=showalg">Sune</div>
+<div class="roofpig" data-config="alg=R U2 R' U' R U' R'|solved=l r b f|flags=showalg">Anit-Sune</div>
+<div class="roofpig" data-config="alg=R U R' U R U' R' U R U2 R'|solved=l r b f|flags=showalg">Car/H</div>
+<div class="roofpig" data-config="alg=F' r U R' U' r' F R|solved=l r b f|flags=showalg">Bowtie</div>
+<div class="roofpig" data-config="alg=r U R' U' r' F R F'|solved=l r b f|flags=showalg">Chameleon</div>
+<div class="roofpig" data-config="alg=R2 D R' U2 R D' R' U2 R'|solved=l r b f|flags=showalg">Headlights</div>
+<div class="roofpig" data-config="alg=f R U R' U' f' F R U R' U' F'|solved=l r b f|flags=showalg">Blinker</div>
+<div class="roofpig" data-config="alg=R U2 R2 U' R2 U' R2 U2 R|solved=l r b f|flags=showalg">Blinker</div>
+
+
+
+
+
 
 </div>
 
@@ -115,7 +131,8 @@ function openTab(evt, cityName) {
 document.getElementById("default").click();
 document.getElementById("play-1").innerHTML = "❯";
 </script>
-   
+</div>
+   <script>  document.getElementById("showlater").classList.remove("hide");</script>
 </body>
 </html> 
 
