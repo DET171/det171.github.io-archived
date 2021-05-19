@@ -1,0 +1,124 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script async src="jquery.js"></script>
+<script async src="roofpig.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="index.css" >
+</head>
+<body>
+
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'cross')" id="default">Cross</button>
+  <button class="tablinks" onclick="openTab(event, 'f2l')">F2L</button>
+  <button class="tablinks" onclick="openTab(event, 'OLL')">OLL</button>
+  <button class="tablinks" onclick="openTab(event, 'PLL')">PLL</button>
+</div>
+  
+  
+  
+  
+  
+<div>
+<div id="cross" class="tabcontent">
+  <h3>Cross</h3>
+  
+  <p>Make a cross on one side by solving all edges of a given face. Make sure to align the edges with the second-layer centers.
+
+    Virtually all top CFOP solvers nowadays solve the cross on bottom to avoid doing a <c>z2</c> or <c>x2</c> cube rotation. Previously, in the 2000s it was also popular to solve on a different face, for example Cross on left. Many top solvers are also color neutral to solve a cross with fewer moves and plan out F2L pairs.</p>
+  <hr>
+  <h3> Algorithms </h3>
+  <img src="https://www.speedsolving.com/wiki/images/3/3f/Cross_2.jpg"></img>
+  <p>There aren't actually any algorithms for making the cross, you just have to be intuitive. Besides, it's not really that hard.
+  You can also go and watch J Perm's wideo on the cross. I find it actually quite helpful.</p>
+<hr><h3>Videos</h3>
+  <iframe width="480" height="270" src="https://www.youtube.com/embed/IWXpkfwimo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="480" height="270" src="https://www.youtube.com/embed/x93VB_v5ATM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+  
+  
+  
+  
+  
+
+<div id="f2l" class="tabcontent">
+  <h3>F2L</h3>
+  <p>Fill in the four slots between the cross pieces, one slot at a time. Each slot is filled by inserting a corner and its corresponding edge simultaneously. Most of the 41 cases have reasonable intuitive solutions. The completion of this step leaves one with just the last layer, typically placed on top.</p> 
+  <hr>
+  <h3>Algorithms</h3><h5>A few examples:</h5><br>
+  
+    <div class="roofpig" data-config="alg=U L' U' L|solved=U*|hover=5">U L' U' L</div>
+    <div class="roofpig" data-config="alg=U R U' R'|solved=U*|hover=5">U R U' R'</div>
+    <div class="roofpig" data-config="alg=U' L' U L|solved=U*|hover=5">U' L' U L</div>
+    <div class="roofpig" data-config="alg=R U R'|solved=U*|hover=5">R U R'</div>
+<br><div>
+    <p>F2L is quite intuitive, you can complete it without memorising all 41 cases after you understand how it works. You can also watch J Perm's video on intuitive F2L.</p></div>
+  
+  <hr>
+<h3> Videos</h3>
+<iframe width="480" height="270" src="https://www.youtube.com/embed/Ar_Zit1VLG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="480" height="270" src="https://www.youtube.com/embed/3B_oB2YrLvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+  
+  
+  
+  
+<div id="OLL" class="tabcontent">
+  <h3>OLL</h3>
+  <p>Make the entire top side (the last layer) of the cube a solid color. 57 nontrivial cases.
+
+Those new to OLL break up the step into two (a.k.a. 2-look OLL). This greatly reduces the number of cases; 2-look OLL has 9 cases. <i>However, note that this is a few seconds slower.</i></p>
+
+<hr><h3>Algorithms</h3><p>The cases 'Opposite', 'Adjacent', 'None', 'Sune', 'Anti-Sune', 'Car', 'Blinker', 'Headlights', 'Chameleon', and 'Bowtie' need to be learnt for 2-look OLL.</p>
+<div class="roofpig" data-config="alg=F R U R' U' F'|solved=U*/c|flags=showalg">Opposite</div>
+
+</div>
+
+
+
+
+
+
+
+  <div id="PLL" class="tabcontent">
+  <h3>PLL</h3>
+  <p>Finally, you finish the cube by permuting the top layer of the cube. 21 nontrivial cases.
+
+Those new to PLL break up the step into two (a.k.a. 2-look PLL). This greatly reduces the number of cases; 2-look PLL has 6 cases. <i>However, note that this is a few seconds slower.</i></p>
+</div>
+
+
+
+
+  </div>
+<script>
+function openTab(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+document.getElementById("default").click();
+document.getElementById("play-1").innerHTML = "❯";
+</script>
+   
+</body>
+</html> 
+
+
+
+

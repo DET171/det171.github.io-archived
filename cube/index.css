@@ -1,0 +1,67 @@
+div.roofpig {
+    width:150px;
+    height:193px;
+    margin: 5px;
+    float:left;
+    font-size: 18px !important;
+}
+
+body {
+  font-family: calibri;
+  line-height: 30px;
+  font-size: 20px;
+  padding: 20px;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: none;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  width: 25%;
+}
+
+/* Change background color of buttons on hover */
+.tab .tablinks:hover {
+  background-color: #ddd;
+  
+}
+
+/* Create an active/current tablink class */
+.tab .tablinks:active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: none;
+}
+c{
+  font-family: consolas;
+  background: #d9d9d9;
+  padding: 3px;
+  border-radius: 3px;
+} 
+.col{
+  flex: 50%;
+}
+hr {
+  border-top: 3px solid #bbb;
+}
+.roofpig-past-algtext{
+  position: relative;
+  top: -30px;
+}
