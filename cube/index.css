@@ -1,18 +1,31 @@
+a {
+  text-decoration: none;
+  color: #0700cf;
+}
+a:hover{
+  color: #3668ff;
+}
+a:active{
+  text-decoration: underline;
+}
 button {
   cursor: pointer;
 }
 .hide{
   display:none;
 }
+
 div.roofpig {
     width:300px;
     height:386px;
-    margin: 50px;
+    margin: 40px;
     float:left;
     font-size: 18px !important;
+    display:block !important;
 }
-canvas{
-  margin: none;
+
+canvas {
+  margin:none;
 }
 
 body {
@@ -243,4 +256,13 @@ hr {
     padding-bottom: 200%;
     opacity: 0;
   }
+}
+table {
+  margin: 10px;
+}
+table, th, td {
+  border-collapse: collapse;
+}
+th {
+  padding: 10px;
 }
