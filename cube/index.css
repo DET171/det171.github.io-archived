@@ -5,12 +5,11 @@ button {
   display:none;
 }
 div.roofpig {
-    width:150px;
-    height:193px;
-    margin: 20px;
+    width:300px;
+    height:386px;
+    margin: 50px;
     float:left;
     font-size: 18px !important;
-    margin-bottom: none;
 }
 canvas{
   margin: none;
@@ -96,4 +95,50 @@ hr {
 }
 ::-webkit-scrollbar-thumb:window-inactive {
 	background: rgba(0, 13, 150); 
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  transition-duration: 0.3s;
+}
+
+
+.tooltip1 .tooltiptext1 {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip1:hover .tooltiptext1 {
+  visibility: visible;
 }
