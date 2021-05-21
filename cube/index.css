@@ -266,3 +266,14 @@ table, th, td {
 th {
   padding: 10px;
 }
+.progress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.bar {
+  width: 1%;
+  height: 30px;
+  background-color: #04AA6D;
+  transition-duration: 0.3s;
+}
