@@ -362,83 +362,18 @@ document.getElementById("bar1").style.width = "80%";
 
 
 
-<script>
-function openTab(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
+<script src="tabs.js">
 
-document.getElementById("default").click();
-document.getElementById("play-1").innerHTML = "❯";
+
 </script>
 <script>
 document.getElementById("bar1").style.width = "90%";
 </script>
-<script>
-(function($, window, document, undefined) {
+<script src="ripple.js">
 
-  'use strict';
-
-  var $ripple = $('.js-ripple');
-
-  $ripple.on('click.ui.ripple', function(e) {
-
-    var $this = $(this);
-    var $offset = $this.parent().offset();
-    var $circle = $this.find('.c-ripple__circle');
-
-    var x = e.pageX - $offset.left;
-    var y = e.pageY - $offset.top;
-
-    $circle.css({
-      top: y + 'px',
-      left: x + 'px'
-    });
-
-    $this.addClass('is-active');
-
-  });
-
-  $ripple.on('animationend webkitAnimationEnd oanimationend MSAnimationEnd', function(e) {
-  	$(this).removeClass('is-active');
-  });
-
-})(jQuery, window, document);
 </script>
-<script defer>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+<script defer src="scroll.js">
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
 </script>
 <script>
 document.getElementById("bar1").style.width = "101%";
@@ -449,7 +384,7 @@ document.getElementById("hidelater").style.display = "none";
 document.getElementById("showlater").classList.remove("hide");
 
 </script>
-<!--<p><a href="examples.html">Here</a> are some example CFOP solves.</p>-->
+
 </body>
 </html> 
 
