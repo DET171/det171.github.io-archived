@@ -3,10 +3,13 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+@import "ripple.css";
+
 body {
   margin: 0;
   font-size: 20px;
   font-family: calibri;
+  line-height: 50px;
 }
 
 .header {
@@ -20,25 +23,8 @@ body {
   background-color: #333;
 }
 
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
 
-#navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
 
-#navbar a.active {
-  background-color: #04AA6D;
-  color: white;
-}
 
 .content {
   padding: 16px;
@@ -65,9 +51,17 @@ table,th,td {
 table{
   margin: 15px;
 }
+th {
+  text-align: left;
+}
+.c-button {
+  text-decoration: none;
+  margin: none !important;
+}
 </style>
 <script src="jquery.js"></script>
 <script src="scroll.js"></script>
+
 </head>
 <body>
 
@@ -77,9 +71,9 @@ table{
 </div>
 
 <div id="navbar">
-  <a href="#s1" title="Build a 1x2x3 block">Step 1</a>
-  <a href="#s2" title="Build a second 1x2x3 block">Step 2</a>
-  <a href="#s3" title="CMLL">Step 3</a>
+  <a href="#s1" title="Build a 1x2x3 block" class="fleft c-button c-button--purple"><div class="c-ripple js-ripple"><span class="c-ripple__circle"></span></div>Step 1</a>
+  <a href="#s2" title="Build a second 1x2x3 block" class="fleft c-button c-button--purple"><div class="c-ripple js-ripple"><span class="c-ripple__circle"></span></div>Step 2</a>
+  <a href="#s3" title="CMLL" class="fleft c-button c-button--purple"><div class="c-ripple js-ripple"><span class="c-ripple__circle"></span></div>Step 3</a>
 </div>
 
 <div class="content">
@@ -104,15 +98,14 @@ table{
 </td><td>	<p>After this step, there should be two 1x2x3 blocks: one on the lower left side, and one lower right side, leaving the U slice and M slice free to move.</p>	</td>
 </tr>
 	<!--Step 2 end-->
-
-<tr>
-
-<th colspan="2"><h3 id="s3">Step 3: CMLL (Corners of the last layer)</h3></th></tr>
-<tr><td colspan="2"><p>Simultaneously orient and permute the remaining four corners on the top layer (U-slice). If performed in one step, there are 42 algorithms. This set of algorithms is commonly referred to as CMLL. It is also possible to use COLL and some other CLL algorithm sets. However, these sets are not as efficient or ergonomic as CMLL because they preserve pieces which CMLL does not. The remaining four corners can also be solved in two steps. This is usually how beginners start using the Roux method because it requires only 9 algorithms. The first step orients the four corners using <b>seven algorithms (2-look OLL)</b>. This is called OCLL. The second step permutes the corners using two algorithms (T-Perm or Y-Perm).</p>
-  </td>
-
-</tr>
 </table>
+<div style="padding: 30px;">
+<h3 id="s3">Step 3: CMLL (Corners of the last layer)</h3>
+<p>Simultaneously orient and permute the remaining four corners on the top layer (U-slice). If performed in one step, there are 42 algorithms. This set of algorithms is commonly referred to as CMLL. It is also possible to use COLL and some other CLL algorithm sets. However, these sets are not as efficient or ergonomic as CMLL because they preserve pieces which CMLL does not. The remaining four corners can also be solved in two steps. This is usually how beginners start using the Roux method because it requires only 9 algorithms. The first step orients the four corners using <b>seven algorithms (2-look OLL)</b>. This is called OCLL. The second step permutes the corners using two algorithms (T-Perm or Y-Perm).</p>
+<p>CMLL Algorithms can be found <a href="https://cuberoot.me/wp-content/uploads/2019/11/453-Roux-CMLL-1.pdf">here</a>.
+</div>
+
+
 
 <!--Content end here-->
 </div>
@@ -131,6 +124,6 @@ function myFunction() {
   }
 }
 </script>
-
+<script src="ripple.js"></script>
 </body>
 </html>
